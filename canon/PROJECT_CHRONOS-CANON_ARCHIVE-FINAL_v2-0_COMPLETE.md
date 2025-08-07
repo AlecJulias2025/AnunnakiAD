@@ -61,20 +61,30 @@ A set of universal decrees and fundamental concepts embodying all aspects of div
 
 ### PRIMORDIAL DEITIES
 **Nammu:** The self-engendered primordial sea, the origin of all existence. She is the mother of the first cosmic mountain, An-Ki [REF: nde:event::cosmic_creation], and thus the ultimate ancestor of all gods.
+
 **An:** The male principle of the sky, son of Nammu. Initially fused with Ki, he was separated by his son Enlil [REF: nde:event::cosmic_creation] to form the high heavens, becoming the original head of the pantheon.
+
 **Ki / Ninhursag:** The female principle of the earth, daughter of Nammu. The great Mother Goddess who, after being separated from An, physically shaped humanity from clay alongside Enki.
 
 ### RULING TRIAD
 **Enlil:** Lord of Air, Wind, and the Word. As the son of An and Ki, he separated the cosmos and established his authority from his temple, the E-kur, in Nippur [Associated Location: Nippur]. He is the willful chief of the Anunnaki, who commands with the Tablet of Destinies [REF: Tablet of Destinies] and decreed the Great Flood [REF: nde:event::the_great_flood].
+
 **Enki:** Lord of Wisdom, Water, and Creation. A son of An, he governs the freshwater abyss, the Abzu [Associated Location: Abzu], from his temple in Eridu [Associated Location: Eridu]. Cunning and benevolent towards humanity, he engineered their creation [REF: nde:event::creation_of_humanity] and secretly ensured their survival during the Great Flood [REF: nde:event::the_great_flood].
 
 ### CELESTIAL & OTHER MAJOR DEITIES
+
 **Nanna-Sin:** The god of the moon, son of Enlil and Ninlil. He traverses the night sky, measuring time.
+
 **Inanna:** The vibrant goddess of love, sensuality, war, and political power, daughter of Nanna-Sin. Associated with Uruk and the planet Venus.
+
 **Ninurta:** The god of war, hunting, and agriculture. The mighty son and champion of Enlil.
+
 **Utu:** The radiant god of the sun and divine justice, twin brother of Inanna.
+
 **Ereshkigal:** The dreaded queen of the Great Below (Kur), the Land of No Return, and older sister of Inanna.
+
 **Nergal:** God of pestilence, scorching heat, and the fury of war. Consort and co-ruler of Ereshkigal.
+
 **Marduk:** Son of Enki and Damkina. Later rises to become King of the Gods after defeating the primordial chaos.
 
 ### KEY CONSORTS
