@@ -826,6 +826,149 @@
 </details>
 
 <details>
+<summary><code>FUID: CHAR-enkidu-v1.2</code></summary>
+
+```json
+{
+  "FUID": "CHAR-enkidu-v1.2",
+  "key": "nde:character::enkidu",
+  "ontological_class": "CHARACTER",
+  "title": "The Wild Man of the Steppe, Brother and Second Self of the King",
+  "ref_name": "Enkidu",
+  "content_proposition": {
+    "summary": "A powerful, primordial wild man created by the gods from clay as a rival and equal to Gilgamesh. His journey from a beast of the wilds to a civilized hero, his profound friendship with the king, and his ultimate sacrificial death are the central catalysts for the entire Gilgamesh epic.",
+    "properties": {
+      "physical_description": "Initially, his body is rough and entirely covered with matted hair, with the strength of a wild animal. He possesses strength equal to Gilgamesh. After his taming, he is cleaned and anointed, appearing as a man, though his connection to the wild remains part of his identity.",
+      "ontological_composition": "Created by the mother goddess `nde:deity::aruru` from clay and the 'essence of Anu'. He is a divine artifact, an 'image' of Gilgamesh, but born of the earth and the wild, not of divine parentage.",
+      "psychological_profile": "Initially innocent, feral, and at one with nature. The taming process introduces 'wisdom' and 'the thoughts of a man', including loyalty, pragmatism, and a fear of death. He often serves as the cautious and pragmatic voice to Gilgamesh's reckless ambition."
+    },
+    "historical_provenance": {
+      "epoch": "The Heroic Age",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Primordial State", "description": "Created and placed in the wilderness, he lives as a beast among beasts, eating grass with the gazelles and protecting them from the traps of hunters." },
+        { "phase": 2, "title": "The Taming", "event_link": "nde:event::coming_of_enkidu", "description": "Through a week-long encounter with the temple courtesan `nde:character::shamhat`, his wild nature is severed. The animals reject him. He gains wisdom but loses his place in the natural world, a transformation he ultimately laments on his deathbed." },
+        { "phase": 3, "title": "The Heroic Partnership", "description": "After a climactic wrestling match establishes their equality, he becomes Gilgamesh's inseparable companion. He channels the king's oppressive energy into heroic quests, acting as his shield, guide, and counselor in the `nde:event::forest_journey_humbaba` and the slaying of the Bull of Heaven." },
+        { "phase": 4, "title": "The Sacrificial Victim", "event_link": "nde:event::death_of_enkidu", "description": "The divine council, judging the duo's accumulated hubris, decrees that one must die. Enkidu is chosen. His agonizing death and his terrifying vision of the Underworld serve as the ultimate catalyst that sends Gilgamesh on his quest for immortality." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": {
+        "the_allegory_of_civilization": "Enkidu's entire life is a powerful, tragic allegory for the process of civilization itself. He represents the natural state of man, tamed and elevated by the arts of culture, who then uses his new power to conquer nature (Humbaba), but ultimately pays a terrible price for his estrangement from the wild world he was born into.",
+        "the_sacrificial_twin": "As Gilgamesh's perfect equal and 'second self', his existence fulfills a key theological function. He is the component of the heroic unit that can be 'sacrificed' to pay for their joint crimes, allowing the semi-divine king to survive but be forever changed. He is the price of Gilgamesh's wisdom."
+      },
+      "psychological_implications": "The 'Alter-Ego' or 'Shadow Self'. Enkidu represents the wild, instinctual, and earthly side of human nature that the 'over-civilized' tyrant Gilgamesh has repressed. Their friendship is an act of psychological integration. Enkidu's death is therefore the tearing away of this integrated self, a psychic wound that drives the rest of the epic.",
+      "narrative_function": "The ultimate catalyst. He is the cause of Gilgamesh's transformation from tyrant to hero, the necessary partner for his heroic deeds, and the cause of his final transformation from hero to wisdom-seeker through his tragic death."
+    },
+    "attributes": { "domains": ["The Wild", "Friendship", "Sacrifice", "The Taming of Nature"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "creator": ["nde:deity::aruru"], "brother_companion": ["nde:character::gilgamesh"], "agent_of_civilization": ["nde:character::shamhat"], "judging_authority": ["nde:deity::enlil"] },
+    "causal_links": { "cause": "The tyranny of `nde:character::gilgamesh` necessitating the creation of a balancing force.", "effect": "His death is the direct cause of the `nde:event::quest_for_immortality`." },
+    "timeline": { "epoch": "III. The Heroic Age" }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE. Dependent CROs (`Aruru`, `Shamhat`) are scheduled for this patch deployment." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: CHAR-gilgamesh-v1.2</code></summary>
+
+```json
+{
+  "FUID": "CHAR-gilgamesh-v1.2",
+  "key": "nde:character::gilgamesh",
+  "ontological_class": "CHARACTER",
+  "title": "The Hero-King Who Sought to Conquer Death",
+  "ref_name": "Gilgamesh",
+  "content_proposition": {
+    "summary": "The semi-divine, heroic fifth king of Uruk whose epic journey evolves from that of an arrogant tyrant to a grief-stricken seeker of immortality, culminating in the wisdom that a mortal's true legacy lies in their deeds and cultural contributions.",
+    "properties": {
+      "physical_description": "Described as being of physically perfect and terrifying beauty, with immense strength surpassing all other mortals.",
+      "ontological_composition": {
+        "formula": "Two-thirds god, one-third man.",
+        "analysis": "This is the source of his primary internal conflict. His divine two-thirds grants him god-like strength, ambition, and perspective, allowing him to perceive the grand scale of the cosmos and the bleak finality of death. His mortal one-third, however, chains him to this very fate, creating an existential torment that fuels both his early tyrannical rage against his own limitations and his later desperate quest to overcome them."
+      },
+      "psychological_profile": "Initially portrayed as a hubristic, oppressive tyrant. The friendship with Enkidu transforms him into a heroic adventurer. Enkidu's death shatters this heroic identity, replacing it with a grief-stricken mortal consumed by terror. His final state is that of a wise, melancholic king who has accepted his place in the cosmos."
+    },
+    "historical_provenance": {
+      "epoch": "The Heroic Age",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Tyranny of the Unbalanced Hero", "event_link": "nde:event::coming_of_enkidu#properties.catalyst", "description": "Rules Uruk as a despot, exhausting its people with endless labor on his great walls and asserting a 'lord's right' over new brides. This represents his unbalanced, untempered power." },
+        { "phase": 2, "title": "The Forging of the Second Self", "event_link": "nde:event::coming_of_enkidu", "description": "After a divine intervention creates his equal, Enkidu, a titanic struggle establishes mutual respect and forges an unbreakable friendship, providing his raw power with a moral and pragmatic anchor." },
+        { "phase": 3, "title": "The Transgression for Fame", "event_link": "nde:event::forest_journey_humbaba", "description": "He channels his ambition into a quest for immortal renown by journeying to the Cedar Forest, where the duo slay the divine guardian Humbaba—an act of supreme hubris." },
+        { "phase": 4, "title": "The Rejection of Divine Favor", "event_link": "nde:event::rejection_of_ishtar", "description": "His fame attracts the goddess Ishtar, whom he scornfully rejects, leading to the unleashing of the Bull of Heaven, which the pair also slay, compounding their crimes against the divine order." },
+        { "phase": 5, "title": "The Shattering of the Self", "event_link": "nde:event::death_of_enkidu", "description": "As divine retribution for their actions, his 'second self', Enkidu, is condemned to die. Gilgamesh is forced to witness the slow decay and death of his friend, shattering his heroic identity and replacing it with a visceral fear of his own mortality." },
+        { "phase": 6, "title": "The Quest for the Self", "event_link": "nde:event::quest_for_immortality", "description": "He abandons his kingdom to undertake a perilous journey to the ends of the earth to find the secret of eternal life. The quest ends in total failure but imparts the profound wisdom that true immortality lies not in defying death, but in accepting it." },
+        { "phase": 7, "title": "The Wisdom of the Walls", "description": "He returns to Uruk and, in a final moment of clarity, praises the great city walls he once built in tyranny. He understands that a king's true legacy is the enduring culture and community he leaves behind." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": "Gilgamesh is the canon's definitive case study on the uncrossable boundary between gods and mortals. His story is a powerful, tragic validation of the divine decree that death is mankind's lot.",
+      "political_implications": "Represents the ideal (though flawed) model of Mesopotamian kingship. His arc is a parable: a king's journey from exercising power for selfish glory to wielding it for the creation of a lasting, protective legacy for his people (the walls of Uruk).",
+      "narrative_function": "The archetypal tragic hero. He is endowed with every possible gift—strength, beauty, divine parentage, kingship—yet is denied the one thing he truly desires. His greatness is ultimately achieved not through victory, but through failure and acceptance."
+    },
+    "attributes": { "domains": ["Kingship", "Heroism", "Grief", "Wisdom (Gained)", "Legacy"], "epithets": ["King of Uruk", "The one who saw the Deep"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "parent_of": ["nde:character::ur-nungal"], "child_of": ["nde:deity::ninsun", "nde:deity::lugulbanda"], "brother_companion": ["nde:character::enkidu"] },
+    "causal_links": { "cause": "His tyranny is the direct cause of `nde:event::coming_of_enkidu`.", "effect": "His quest results in the final, canonical understanding of human mortality." },
+    "timeline": { "epoch": "III. The Heroic Age", "sequence": "Primary figure from 8.0 to 14.0" }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE. Dependent CROs (`Lugalbanda`, `Ninsun`, `Ur-Nungal`) are scheduled for this patch deployment." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablets I-XI)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: CHAR-ziusudra-v1.2</code></summary>
+
+```json
+{
+  "FUID": "CHAR-ziusudra-v1.2",
+  "key": "nde:character::ziusudra",
+  "ontological_class": "CHARACTER",
+  "title": "The Immortal Sage, Survivor of the Great Deluge",
+  "ref_name": "Ziusudra",
+  "content_proposition": {
+    "summary": "The pious king-priest of Shuruppak who, due to his wisdom and piety, was chosen by the god Enki to survive the Great Flood and was subsequently granted the unique gift of immortality.",
+    "properties": {
+      "physical_description": "Depicted as an old, wise sage.",
+      "ontological_composition": "Mortal, later deified. He is the only human known to have successfully transitioned to an immortal state.",
+      "psychological_profile": "In his immortal state, he is portrayed as a stern but ultimately compassionate figure. He is a repository of immense historical wisdom and understands the futility of struggling against the decrees of the gods. His character is defined by a melancholic acceptance of the cosmic order."
+    },
+    "historical_provenance": {
+      "epoch": "The Post-Diluvian Age",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Pious King", "description": "Reigned as the last king of Shuruppak in the Antediluvian Age, known for his devotion to his patron god, Enki." },
+        { "phase": 2, "title": "The Survivor", "event_link": "nde:event::the_great_flood", "description": "Was secretly warned by Enki of the impending flood and built the great ark that preserved all life." },
+        { "phase": 3, "title": "The Deified Mortal", "description": "As a reward for his role in preserving life, he and his wife were granted immortality by Enlil and taken to live in the paradise of Dilmun." },
+        { "phase": 4, "title": "The Sage at the End of the World", "event_link": "nde:event::quest_for_immortality", "description": "Serves as the final destination and mentor for Gilgamesh. He recounts the story of the flood, explains the finality of death for all other mortals, and provides the hero with the final, tragic test of the plant of rejuvenation." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": "Represents the singular exception to the Law of Mortality for humans. His immortality was not earned through a quest but was a unique, unrepeatable gift bestowed by the divine council after the world was reset. He exists to prove that immortality for man *is* possible, but only by the direct, unilateral will of the gods.",
+      "narrative_function": "The ultimate 'wise old man' and mentor figure. He is the keeper of the most important story in human history (the Flood) and the one who delivers the final, inescapable truth about mortality to Gilgamesh."
+    },
+    "attributes": {
+      "domains": ["Piety", "Wisdom", "Survival", "Immortality"],
+      "epithets": ["Ziusudra (Sumerian)", "Utnapishtim (Akkadian)", "Atra-hasis (Akkadian)", "The Faraway"],
+      "residence": "nde:loc::dilmun"
+    }
+  },
+  "relational_hooks": {
+    "direct_links": { "patron_deity": ["nde:deity::enki"], "antagonist_and_benefactor": ["nde:deity::enlil"], "questing_visitor": ["nde:character::gilgamesh"], "consort": ["nde:character::ziusudra's_wife"] },
+    "causal_links": { "cause": "His extreme piety earned him the favor of Enki.", "effect": "His story provides the final wisdom that concludes Gilgamesh's quest." },
+    "timeline": { "epoch": "II. The Divine-Mortal Age through III. The Heroic Age" }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE. Dependent CRO for his wife is scheduled." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablet XI)", "Atra-Hasis", "Sumerian Flood Myth"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+
+<details>
 <summary><code>FUID: CHAR-dumuzi-v1.2</code></summary>
 
 ```json
@@ -877,6 +1020,176 @@
     ]
   },
   "metadata": { "primary_textual_sources": ["Inanna's Descent", "Dumuzid's Dream"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: CHAR-humbaba-v1.2</code></summary>
+
+```json
+{
+  "FUID": "CHAR-humbaba-v1.2",
+  "key": "nde:character::humbaba",
+  "ontological_class": "CHARACTER",
+  "title": "The Warden of the Living Mountain, Guardian of the Sacred Cedars",
+  "ref_name": "Humbaba",
+  "content_proposition": {
+    "summary": "The monstrous and terrifying giant appointed by the god Enlil as the divine guardian of the sacred Cedar Forest, a being who embodies the untamed power of the wilderness and is armed with seven layers of divine radiance.",
+    "properties": {
+      "physical_description": [
+        "A being of immense size with a human-like body.",
+        "Possesses the claws of a lion and a face of nightmarish aspect.",
+        "Canonical Divinatory Description: His face is described as a single, coiling line like that of the entrails of a sacrificed animal, making him a living, walking omen whose very appearance is a portent."
+      ],
+      "ontological_composition": "Monstrous Giant / Nature Divinity. He is not a god of the ruling council, but a divinely appointed chthonic entity whose power is intrinsically linked to his sacred domain.",
+      "powers_and_abilities": {
+        "primary_ability": "The Seven Splendours (Akkadian: Melammu)",
+        "description": "A series of seven distinct, concentric layers of terrifying divine aura that emanate from his being.",
+        "effect": "This aura functions as an active defense system, capable of paralyzing intruders with terror, causing weakness, and defending the forest. It must be breached layer by layer, or neutralized by a superior divine force."
+      },
+      "psychological_profile": "Presented as a loyal and terrifyingly effective servant of Enlil. He is ferocious and intimidating when performing his duty, but when captured and defeated, he reveals a capacity to plead for his life, offering servitude in exchange for mercy."
+    },
+    "historical_provenance": [
+      { "epoch": "The Age of Command", "role": "Appointed by `nde:deity::enlil` to be the sole and absolute guardian of the `nde:loc::cedar_forest`." },
+      { "epoch": "The Heroic Age", "event_link": "nde:event::forest_journey_humbaba", "role": "Acted as the primary antagonist for the first great quest of Gilgamesh and Enkidu. He was defeated only when the god Utu intervened with the Great Winds, neutralizing his splendours. He was subsequently executed by the heroes against Enkidu's pragmatic counsel." }
+    ],
+    "analysis": {
+      "theological_implications": "Represents the sanctity of divinely-appointed domains. His existence proves that not all 'monsters' in the wild are agents of chaos; some are legitimate officials of the divine order. His murder is therefore not an act of heroism, but a profound and damning sacrilege.",
+      "political_implications": "The conflict with Humbaba is a mythological representation of the tension between the centralized, urban authority of the city-state (Uruk) and the untamed, resource-rich periphery (the wilderness). His death symbolizes civilization's violent conquest and appropriation of these sacred, natural domains.",
+      "posthumous_significance": {
+        "apotropaic_magic": "Paradoxically, his terrifying visage was later inscribed on clay plaques used by mortals as a protective charm to ward off evil spirits.",
+        "divination": "In omen texts, a pattern in a sacrificed animal's liver that resembled the face of Humbaba was considered a powerful omen predicting political upheaval and the usurpation of a king."
+      },
+      "narrative_function": "The quintessential 'Guardian of the Threshold'. He is the fearsome gatekeeper who must be defeated for the heroes to achieve worldly fame. However, the *manner* of his defeat and death—an illegal assassination of a pleading captive—is what sets the heroes on a tragic path, making him the catalyst for their moral downfall."
+    },
+    "attributes": { "domains": ["Wilderness", "Guardianship", "Terror", "Omens"], "epithets": ["Huwawa (Sumerian)", "The Warden of the Forest"], "appointed_by": "nde:deity::enlil" }
+  },
+  "relational_hooks": {
+    "direct_links": { "divine_superior": ["nde:deity::enlil"], "domain_of_guardianship": ["nde:loc::cedar_forest"], "slayers": ["nde:character::gilgamesh", "nde:character::enkidu"], "opposing_divine_patron": ["nde:deity::utu"] },
+    "causal_links": { "cause": "His existence and duty are the central obstacle in the `nde:event::forest_journey_humbaba`.", "effect": "His murder is the primary legal and theological justification for the divine judgment that leads to the `nde:event::death_of_enkidu`." },
+    "timeline": { "epoch": "III. The Heroic Age" }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablets III-V)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: CHAR-shamhat-v1.2</code></summary>
+
+```json
+{
+  "FUID": "CHAR-shamhat-v1.2",
+  "key": "nde:character::shamhat",
+  "ontological_class": "CHARACTER",
+  "title": "The Civilizing Courtesan, Agent of Urban Transformation",
+  "ref_name": "Shamhat",
+  "content_proposition": {
+    "summary": "A sacred courtesan (`harimtu`) from the temple of Ishtar in Uruk, who is chosen for the pivotal task of taming the wild man Enkidu and initiating him into the ways of human civilization.",
+    "properties": {
+      "physical_description": ["Depicted as a wise and patient woman, a teacher as much as a seductress."],
+      "ontological_composition": "Mortal.",
+      "psychological_profile": "Acts with purpose and understanding. She is not merely a passive tool but an active agent who teaches, guides, and ultimately persuades Enkidu to embrace a new life."
+    },
+    "historical_provenance": [
+      {
+        "epoch": "The Heroic Age",
+        "event": "nde:event::coming_of_enkidu",
+        "role": "Dispatched at Gilgamesh's command, she travels to the wilderness, uses her sexuality to attract Enkidu, and through their week-long union, severs his connection to the wild. She then teaches him to eat human food, drink wine, and wear clothes, completing his transformation."
+      }
+    ],
+    "analysis": {
+      "theological_implications": "She is the human agent of a divine plan. Her arts—the arts of civilization, sexuality, and culture—are presented as a force as powerful as any god's magic, capable of fundamentally transforming a being's nature. She represents civilization as an act of seduction, not conquest.",
+      "political_implications": "Her success represents the power of 'soft power' in the Mesopotamian worldview. The wild man is not defeated in battle but is integrated into the urban system through cultural assimilation, a process she personally engineers.",
+      "narrative_function": "The 'Agent of Transformation'. She is the indispensable catalyst who makes the entire story of Gilgamesh and Enkidu possible by bridging the gap between the wild world and the civilized one."
+    },
+    "attributes": { "domains": ["Civilization", "Seduction", "Teaching", "Culture"], "profession": "Harimtu (Sacred Courtesan)" }
+  },
+  "relational_hooks": {
+    "direct_links": { "agent_of_civilization_for": ["nde:character::enkidu"], "dispatched_by": ["nde:character::gilgamesh"] },
+    "precision_pointers": [{ "description": "Her actions are the pivotal 'taming' process within this event.", "icp_link": "nde:event::coming_of_enkidu#historical_provenance.narrative_arc[2].description" }]
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablets I-II)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: CHAR-siduri-v1.2</code></summary>
+
+```json
+{
+  "FUID": "CHAR-siduri-v1.2",
+  "key": "nde:character::siduri",
+  "ontological_class": "CHARACTER",
+  "title": "The Divine Vintner at the Edge of the World",
+  "ref_name": "Siduri",
+  "content_proposition": {
+    "summary": "A wise and ancient goddess (`sābītu`) who lives as an alewife or vintner in a garden at the very edge of the mortal world, by the shores of the sea that leads to the Waters of Death. She offers Gilgamesh the profound wisdom of mortal life.",
+    "properties": {
+      "ontological_composition": "Divine (Goddess).",
+      "psychological_profile": "Presented as a pragmatic, wise, and cautious figure. She initially bars her gate against the wild-looking Gilgamesh, but after hearing his story, offers him direct, compassionate, and ultimately futile counsel."
+    },
+    "historical_provenance": [
+      {
+        "epoch": "The Heroic Age",
+        "event": "nde:event::quest_for_immortality",
+        "role": "She is the last being Gilgamesh meets before he must abandon the mortal world entirely. She challenges the validity of his quest and articulates the central philosophical alternative of the epic: 'When the gods created man they allotted to him death, but life they retained in their own keeping... fill your belly with good things; day and night, night and day, dance and be merry, feast and rejoice... for this too is the lot of man.'"
+      }
+    ],
+    "analysis": {
+      "theological_implications": "Represents a hedonistic but profound theology of mortal existence. She is the divine voice that argues that meaning is found not in a futile quest for what is denied (immortality), but in the full and joyful embrace of what is given (the sensory pleasures of a finite life).",
+      "narrative_function": "The 'Mentor of Mundane Wisdom'. Unlike other guides who help the hero on his quest, Siduri's primary function is to tell him to abandon it. She is the final temptation, not of vice, but of the simple, profound joys of the normal human life that Gilgamesh has rejected."
+    },
+    "attributes": { "domains": ["Wisdom (Mortal)", "Joy", "Wine-making", "Boundaries"], "profession": "Sābītu (Alewife/Vintner)" }
+  },
+  "relational_hooks": {
+    "direct_links": { "counsels": ["nde:character::gilgamesh"], "directs_to": ["nde:character::urshanabi"] },
+    "precision_pointers": [{ "description": "Her speech is the canon's most direct statement on the meaning of mortal life.", "icp_link": "nde:event::quest_for_immortality#historical_provenance.narrative_arc[2].description" }]
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablet X)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: CHAR-urshanabi-v1.2</code></summary>
+
+```json
+{
+  "FUID": "CHAR-urshanabi-v1.2",
+  "key": "nde:character::urshanabi",
+  "ontological_class": "CHARACTER",
+  "title": "The Ferryman of Paradise, Guide Across the Waters of Death",
+  "ref_name": "Urshanabi",
+  "content_proposition": {
+    "summary": "The ferryman of the immortal flood hero Ziusudra (Utnapishtim), the only being who knows how to navigate the lethal Waters of Death that separate the mortal world from the paradise of Dilmun.",
+    "properties": {
+      "ontological_composition": "Likely a semi-divine or unique being, as he is capable of existing on the border of the immortal realm.",
+      "key_technology": "The 'Stone Things' (`šut abni`). The exact nature of these objects is mysterious, but they were the magical instruments that allowed his boat to cross the Waters of Death safely. Their destruction by Gilgamesh is a pivotal act of foolish rage."
+    },
+    "historical_provenance": [
+      {
+        "epoch": "The Heroic Age",
+        "event": "nde:event::quest_for_immortality",
+        "role": "He is the final guide on Gilgamesh's quest. After Gilgamesh destroys the Stone Things, Urshanabi forces the hero into the grueling labor of cutting 120 punting poles to cross the waters without touching them. For the transgression of ferrying a living mortal, he is exiled from Dilmun by Ziusudra and returns with Gilgamesh to Uruk, becoming a bridge between the two worlds."
+      }
+    ],
+    "analysis": {
+      "theological_implications": "His existence and unique ability reinforce the concept of the absolute boundary between the mortal and immortal. Passage is not a matter of strength but of possessing a unique, esoteric knowledge and technology. His exile suggests this boundary is meant to be permanent.",
+      "narrative_function": "The 'Supernatural Ferryman' archetype (like Charon). He is the guide who navigates the final, impossible threshold. His own story is tragic; his encounter with the hero costs him his sacred and eternal post."
+    },
+    "attributes": { "domains": ["Navigation (Supernatural)", "Boundaries", "Passage"], "profession": "Ferryman" }
+  },
+  "relational_hooks": {
+    "direct_links": { "serves": ["nde:character::ziusudra"], "guides": ["nde:character::gilgamesh"], "navigates": ["nde:loc::waters_of_death"] }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE.", "unresolved_questions": ["What, precisely, were the 'Stone Things'? Were they magical talismans, navigational devices, or something else entirely?"] },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablet X)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
 }
 ```
 </details>
