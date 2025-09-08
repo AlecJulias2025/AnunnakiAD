@@ -304,7 +304,8 @@
   "development_log": { "version": "1.2", "status": "STABLE." },
   "metadata": { "primary_textual_sources": ["Sumerian cosmogony texts"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
 }
-```</details>
+```
+</details>
 
 <details>
 <summary><code>FUID: DEITY-ninlil-v1.2</code></summary>
