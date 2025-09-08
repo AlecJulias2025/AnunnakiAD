@@ -80,3 +80,57 @@ The following is a complete and systematized gap analysis. It serves as the defi
 ---
 
 This list represents the complete set of entities discussed and scheduled but not fully instantiated in the Canon Prime v1.2 Codex. It is the definitive worklist for all future expansions.
+
+---
+
+Full v1.2 to v2.0 Upgrade Requirements:
+
+The following document represents the final, synthesized development worklist. It is the architectural blueprint for the evolution from the current, narratively complete v1.2 state to the exhaustively detailed v2.0.
+
+---
+
+### **§// CANON PRIME v2.0 - FINAL COMPREHENSIVE DEVELOPMENT WORKLIST**
+
+This document details the complete set of remaining tasks required to achieve a state of maximum canonical density. The successful execution of this plan will result in a fully populated, deeply analyzed, and near-exhaustive mythological codex.
+
+#### **PRIORITY 2: SYSTEMIC ENRICHMENT (Geopolitical & Dynastic Integrity)**
+*With the core narratives in place, the next priority is to fully populate the world, giving the main stories their complete political, geographical, and familial context.*
+
+**TASK GROUP 2.1: COMPLETION OF THE DIVINE ROSTER**
+*   **Target:** `nde:deity::ningal`
+    *   **Instruction:** Fully instantiate the consort of Nanna-Sin and mother of the celestial triad (Utu, Inanna, Ereshkigal).
+*   **Target:** `nde:deity::sarpanitu` & `nde:deity::nabu`
+    *   **Instruction:** Instantiate the consort and son of Marduk to complete the dynastic line of the new divine order.
+*   **Target:** `nde:deity::anshar_and_kishar` & `nde:deity::lahmu_and_lahamu`
+    *   **Instruction:** Instantiate the elder generations of gods to complete the full genealogical prelude to the `Cosmic War`.
+*   **Target:** `nde:deity::aruru`
+    *   **Instruction:** Fully expand the CRO for the mother goddess specifically credited with the physical creation of Enkidu.
+
+**TASK GROUP 2.2: COMPLETION OF THE HEROIC & LIMINAL ROSTER**
+*   **Target:** `nde:character::shamhat`, `nde:character::neti`, `nde:character::namtar`
+    *   **Instruction:** Fully expand the minimalist CROs for the pivotal supporting characters of the major epics: the civilizing agent, the Underworld's gatekeeper, and the Underworld's vizier.
+*   **Target:** `nde:entity::scorpion_beings`
+    *   **Instruction:** Instantiate the monstrous guardians of Mount Mashu who serve as the gatekeepers on Gilgamesh's quest.
+
+**TASK GROUP 2.3: COMPLETION OF THE GEOGRAPHICAL MAP**
+*   **Target:** `nde:loc::kish`
+    *   **Instruction:** Instantiate this major rival city-state to provide the necessary geopolitical tension for the Uruk dynasty.
+*   **Target:** `nde:loc::mount_nisir`
+    *   **Instruction:** Instantiate the resting place of Ziusudra's ark to provide the final geographical anchor for the Flood myth.
+
+#### **PRIORITY 3: COMPLETIONIST DATA & DEEP ANALYTICAL TASKS**
+*The final phase focuses on achieving maximum breadth and depth by instantiating tertiary entities and creating dedicated appendices for the most complex theological issues.*
+
+**TASK GROUP 3.1: GRANULAR ENTITY & ARTIFACT INSTANTIATION**
+*   **Target:** Individual Monsters from the `nde:entity::the_eleven_monsters` roster.
+    *   **Instruction:** Deconstruct the collective CRO into minimalist individual entries (e.g., `nde:entity::mušḫuššu`, `nde:entity::girtablullû`) for more precise relational linking.
+*   **Target:** `nde:artifact::sharur_mace`
+    *   **Instruction:** Fully expand the CRO for Ninurta's sentient weapon, detailing its known abilities and role as a tactical advisor.
+
+**TASK GROUP 3.2: CREATION OF CANONICAL APPENDICES**
+*   **Target:** `nde:appendix::cosmological_models`
+    *   **Instruction:** Create a formal analytical document comparing the Sumerian (An/Ki separation) and Babylonian (*Enūma Eliš*) creation myths, analyzing their political and theological differences.
+*   **Target:** `nde:appendix::the_fifty_names`
+    *   **Instruction:** Create an appendix that enumerates and analyzes the fifty titles/powers bestowed upon Marduk, detailing which powers were absorbed from which elder gods as a political act.
+*   **Target:** `nde:appendix::tablet_xii`
+    *   **Instruction:** Create an appendix dedicated to the apocryphal twelfth tablet of the Gilgamesh epic, analyzing its narrative contradictions with the main canon and its differing depiction of the Underworld.
