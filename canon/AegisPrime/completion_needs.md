@@ -1,7 +1,3 @@
-Here is a merged, deduplicated version of the two upgrade instructions, presented as a single, comprehensive worklist for the evolution to Canon Prime v2.0.
-
-***
-
 ### **Canon Prime v2.0: Final Comprehensive Development Worklist**
 
 The following is a complete and systematized gap analysis, serving as the definitive, final worklist and architectural blueprint for the evolution from Canon Prime v1.2 to the exhaustively detailed v2.0. The entities are categorized by ontological class and prioritized based on their systemic importance to the integrity of the core narratives. The successful execution of this plan will result in a fully populated, deeply analyzed, and near-exhaustive mythological codex.
