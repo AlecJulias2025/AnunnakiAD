@@ -653,6 +653,133 @@
 </details>
 
 <details>
+<summary><code>FUID: DEITY-apsu-v1.2</code></summary>
+
+```json
+{
+  "FUID": "DEITY-apsu-v1.2",
+  "key": "nde:deity::apsu",
+  "ontological_class": "DEITY",
+  "title": "The Primordial Father of the Freshwater Abyss",
+  "ref_name": "Apsu",
+  "content_proposition": {
+    "summary": "The primordial god of the fresh-water abyss who, along with his consort Tiamat, engendered the first generation of gods. His plot to destroy his descendants and his subsequent assassination by Enki served as the primary catalyst for the Cosmic War.",
+    "properties": {
+      "physical_description": ["His form is the subterranean freshwater ocean itself; he is a location and a consciousness in one."],
+      "metaphysical_properties": [
+        "Represents the principle of static, unconscious potential and primordial stasis.",
+        "His defining character trait is an overwhelming desire for silence and rest, which is fundamentally at odds with the dynamic, 'noisy' nature of his offspring."
+      ],
+      "ontological_composition": "Primordial Divine Being."
+    },
+    "historical_provenance": [
+      {
+        "epoch": "The Primordial Age (Time Zero)",
+        "event": "nde:event::primordial_genesis",
+        "role": "Acted as the original male principle, mingling his fresh waters with the salt waters of `nde:deity::tiamat` to engender the first gods."
+      },
+      {
+        "epoch": "The Primordial Age (The First Conflict)",
+        "event": "nde:event::assassination_of_apsu",
+        "role": "Acted as the first antagonist. Enraged by the clamor of his descendants, he conspired with his vizier Mummu to destroy them. He was preemptively slain in his sleep by his great-grandson, `nde:deity::enki`."
+      }
+    ],
+    "analysis": {
+      "theological_implications": "Represents a primordial state of being that had to be destroyed for a more complex and dynamic reality to emerge. His defeat symbolizes the victory of consciousness and action over inert, silent potential.",
+      "narrative_function": "The 'Reactionary Father'. He is the catalyst whose oppressive and genocidal intent justifies his own murder and sets the grander, more tragic conflict of the cosmos into motion. He is a necessary first victim."
+    },
+    "attributes": { "domains": ["Fresh Water", "The Abyss", "Stasis"], "epithets": ["Begetter of the Great Gods"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "consort_of": ["nde:deity::tiamat"], "parent_of": ["nde:deity::lahmu_and_lahamu"], "vizier": ["nde:character::mummu"], "slain_by": ["nde:deity::enki"] },
+    "precision_pointers": [{ "description": "His murder was the direct cause of Tiamat's vengeful rage.", "icp_link": "nde:event::cosmic_war#properties.catalyst" }]
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Enūma Eliš (Tablet I)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+<details>
+<summary><code>FUID: DEITY-kingu-v1.2</code></summary>
+
+```json
+{
+  "FUID": "DEITY-kingu-v1.2",
+  "key": "nde:deity::kingu",
+  "ontological_class": "DEITY",
+  "title": "The Ill-Fated General of Chaos, The Sacrificial Traitor",
+  "ref_name": "Kingu",
+  "content_proposition": {
+    "summary": "A junior god elevated by Tiamat to be her consort and the supreme commander of her monstrous army. He was entrusted with the Tablet of Destinies, and after his defeat, his blood was used to create humanity.",
+    "properties": {
+      "ontological_composition": "Divine. One of the Anunna gods, though not of the first generation.",
+      "psychological_profile": "Defined by ambition that exceeds his capabilities. He accepts supreme command and the Tablet of Destinies but is quickly overwhelmed and terrified when confronted by Marduk, suggesting he was a political appointee rather than a true warrior king."
+    },
+    "historical_provenance": [
+      {
+        "epoch": "The Cosmic War",
+        "event": "nde:event::cosmic_war",
+        "role": "Chosen by `nde:deity::tiamat` as her new consort and commander. His authority was legitimized when she bestowed the `nde:rule::tablet_of_destinies` upon him. He was captured after Tiamat's defeat."
+      },
+      {
+        "epoch": "The Post-War Order",
+        "event": "nde:event::creation_of_humanity",
+        "role": "After the war, the divine council formally declared him the chief traitor who incited the rebellion. He was executed, and from his blood, Ea (Enki) fashioned humanity, thereby binding mankind to a legacy of chaos and rebellion."
+      }
+    ],
+    "analysis": {
+      "theological_implications": "His story provides a theological origin for the flaws in human nature (in the Babylonian tradition). Because mankind is created from the blood of a traitor, humanity has an innate rebellious and chaotic spirit that must be controlled by divine law and mortal kingship.",
+      "political_implications": "Represents illegitimate authority. He holds the symbol of power (the Tablet) but lacks the intrinsic merit to wield it effectively. His defeat and subsequent designation as the sole guilty party can be read as a political maneuver by the victorious gods to absolve Tiamat (the primordial mother) of some guilt and place the blame on an ambitious usurper.",
+      "narrative_function": "The 'False King' or 'Antagonist's Champion'. He is the primary military and political obstacle for the hero Marduk to overcome. His defeat is a prerequisite for both Marduk's final victory and for the creation of mankind."
+    },
+    "attributes": { "domains": ["Usurpation", "Betrayal", "Command (Illegitimate)"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "consort_of": ["nde:deity::tiamat"], "commander_of": ["nde:entity::the_eleven_monsters"], "defeated_by": ["nde:deity::marduk"] },
+    "precision_pointers": [{ "description": "His blood serves as the divine component for creating humanity in the Babylonian tradition.", "icp_link": "nde:event::creation_of_humanity#properties.key_materials.divine_component_tradition_b" }]
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Enūma Eliš"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+<details>
+<summary><code>FUID: DEITY-aruru-v1.2</code></summary>
+
+```json
+{
+  "FUID": "DEITY-aruru-v1.2",
+  "key": "nde:deity::aruru",
+  "ontological_class": "DEITY",
+  "title": "The Divine Sculptor, Mother Goddess of Creation",
+  "ref_name": "Aruru",
+  "content_proposition": {
+    "summary": "A mother goddess known for her central role in the physical creation of mankind and, specifically, the hero Enkidu, whom she fashioned from clay at the command of the high god Anu.",
+    "properties": { "metaphysical_properties": ["Possesses the divine authority and skill of a master crafter, able to create life from raw terrestrial material (clay). She is a divine artisan."] },
+    "historical_provenance": [
+      {
+        "epoch": "The Heroic Age",
+        "event": "nde:event::coming_of_enkidu",
+        "role": "After hearing the laments of the people of Uruk, Anu commanded her to create a counterpart to Gilgamesh. She conceived an 'image' of Anu in her mind, washed her hands, pinched off clay, and cast it into the wilderness, thereby giving birth to Enkidu."
+      }
+    ],
+    "analysis": {
+      "theological_implications": "Her role highlights the collaborative nature of divine creation. Anu has the authority and the concept, but Aruru has the skill to execute it. This separates the 'will to create' from the 'art of creation'.",
+      "narrative_function": "The 'Divine Agent of Creation'. She is the specific character who physically brings Enkidu into the world, acting as the instrument of the divine council's will."
+    },
+    "attributes": { "domains": ["Creation", "Pottery", "Childbirth"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "creator_of": ["nde:character::enkidu"], "works_under": ["nde:deity::an"] },
+    "precision_pointers": [{ "description": "Her act of creation is the inciting incident of the entire Gilgamesh epic.", "icp_link": "nde:event::coming_of_enkidu#historical_provenance.narrative_arc[0].description" }]
+  },
+  "development_log": { "version": "1.2", "status": "STABLE. Her identity is often syncretized with `nde:deity::ki_ninhursag`, who performs the same function in other myths." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablet I)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+
+<details>
 <summary><code>FUID: DEITY-anunna-v1.2</code></summary>
 
 ```json
@@ -787,6 +914,241 @@
     "planned_expansions": ["Integration of his role in divination texts, particularly his function in providing omens through the examination of sacrificed animals."]
   },
   "metadata": { "primary_textual_sources": ["Epic of Gilgamesh", "Dumuzid's Dream"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: DEITY-ninsun-v1.2</code></summary>
+
+```json
+{
+  "FUID": "DEITY-ninsun-v1.2",
+  "key": "nde:deity::ninsun",
+  "ontological_class": "DEITY",
+  "title": "The Wise Wild Cow, Divine Mother of Kings",
+  "ref_name": "Ninsun",
+  "content_proposition": {
+    "summary": "A goddess known for her profound wisdom and her role as the divine mother of the hero-king Gilgamesh, to whom she acts as a dream interpreter, divine intercessor, and emotional anchor.",
+    "properties": {
+      "physical_description": ["Often associated with pastoral imagery, particularly the wild cow."],
+      "metaphysical_properties": ["Possesses the power of dream interpretation and prophecy, able to read the omens and divine will hidden in visions.", "Her defining characteristic is her wisdom, which is sought by her powerful but reckless son."],
+      "ontological_composition": "Goddess. Minor in the overall pantheon but major in the Gilgamesh epic."
+    },
+    "historical_provenance": [
+      {
+        "epoch": "The Heroic Age",
+        "event": "nde:event::forest_journey_humbaba",
+        "role": "Acted as a crucial intercessor. Before the quest, she performed a ritual on the roof of her palace, burning incense and making a powerful plea to the sun god Utu to protect her son. She also ritually adopted Enkidu, creating a familial bond and placing him under her divine protection."
+      },
+      {
+        "epoch": "The Heroic Age",
+        "event": "nde:event::coming_of_enkidu",
+        "role": "Acted as the dream interpreter for Gilgamesh, correctly divining that the meteor and the axe from his dreams represented a powerful companion who would become his 'second self'."
+      }
+    ],
+    "analysis": {
+      "theological_implications": "Represents the principle of accessible divine wisdom. While the great gods are remote and often hostile, Ninsun is an intimate, maternal divine figure who provides direct guidance and aid. She is the compassionate face of the divine.",
+      "narrative_function": "The 'Wise Mother' archetype. She provides the hero with essential exposition (interpreting his dreams), crucial aid (interceding with Utu), and emotional grounding (lamenting his dangerous path). She is the hero's connection back to the divine world and his last bastion of unconditional support."
+    },
+    "attributes": { "domains": ["Wisdom", "Dream Interpretation", "Intercession"], "epithets": ["Lady Wild Cow", "Rimat-Ninsun"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "consort_of": ["nde:deity::lugulbanda"], "parent_of": ["nde:character::gilgamesh"], "adopts": ["nde:character::enkidu"] },
+    "precision_pointers": [{ "description": "Her intercession with Utu was a critical factor in the success of the Forest Journey.", "icp_link": "nde:event::forest_journey_humbaba#historical_provenance.narrative_arc[1].description" }]
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablets I, III)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: DEITY-lugulbanda-v1.2</code></summary>
+
+```json
+{
+  "FUID": "DEITY-lugulbanda-v1.2",
+  "key": "nde:deity::lugulbanda",
+  "ontological_class": "DEITY",
+  "title": "The Shepherd King, Deified Father of the Hero",
+  "ref_name": "Lugalbanda",
+  "content_proposition": {
+    "summary": "A legendary hero-king of Uruk who was later deified and became the personal divine patron and father of Gilgamesh. He is revered as a forefather whose own heroic deeds set the precedent for his son's.",
+    "properties": {
+      "ontological_composition": "Deified Mortal. He was a human king who, due to his extraordinary feats, was elevated to divine status after his death.",
+      "historical_provenance": "Listed in the Sumerian King List as the third king of the First Dynasty of Uruk, reigning before Gilgamesh. He is the protagonist of his own cycle of two Sumerian heroic epics."
+    },
+    "historical_provenance_as_deity": [
+      {
+        "epoch": "The Heroic Age",
+        "role": "Functions as Gilgamesh's personal guardian god (`ilu`). When Gilgamesh is near death or in despair, he prays to his deified father for aid and inspiration."
+      }
+    ],
+    "analysis": {
+      "theological_implications": "Represents the Mesopotamian concept of the deified ancestor. It shows that the boundary between mortal and god, while absolute for ordinary men, could be crossed by legendary kings of the remote past, providing a genealogical link between the ruling dynasty and the divine world.",
+      "narrative_function": "The 'Heroic Ancestor'. He serves as the model and inspiration for his son, Gilgamesh. His own epic cycle provides the historical and mythological backstory for the heroic tradition of Uruk that Gilgamesh inherits and must live up to."
+    },
+    "attributes": { "domains": ["Heroism", "Kingship (Deified)"], "epithets": ["The Pure Shepherd"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "consort_of": ["nde:deity::ninsun"], "parent_of": ["nde:character::gilgamesh"] },
+    "causal_links": { "effect": "His heroic legacy serves as the primary inspiration for Gilgamesh's own quest for fame." }
+  },
+  "development_log": { "version": "1.2", "status": "STABLE.", "planned_expansions": ["Instantiation of the `nde:event::lugulbanda_in_the_mountain_cave` to detail his own heroic cycle."] },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh", "Sumerian King List", "Lugalbanda in the Mountain Cave"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: DEITY-ningal-v1.2</code></summary>
+
+```json
+{
+  "FUID": "DEITY-ningal-v1.2",
+  "key": "nde:deity::ningal",
+  "ontological_class": "DEITY",
+  "title": "The Great Lady, Queen of the Moon's Light",
+  "ref_name": "Ningal",
+  "content_proposition": {
+    "summary": "A major Sumerian goddess, the consort of the moon god Nanna-Sin, and the mother of the most powerful and dynamic divine siblings: Utu (the Sun), Inanna (Venus), and Ereshkigal (the Underworld).",
+    "properties": {
+      "ontological_composition": "Divine.",
+      "role": "Matriarch of the celestial dynasty. Her primary function is genealogical and supportive, providing the maternal line for the key second-generation deities."
+    },
+    "historical_provenance": [
+      {
+        "epoch": "The Heroic Age",
+        "role": "In the 'Lament for Ur', she is depicted as a primary mourner, weeping for the destruction of her sacred city and pleading with the high gods to avert its fate."
+      }
+    ],
+    "analysis": {
+      "theological_implications": "Represents the 'Queen Mother' principle in the divine world. While her husband represents serene order, she appears in myths as a more emotionally engaged figure, capable of deep grief and passionate pleas.",
+      "narrative_function": "The matriarch of the most important divine family in the canon (outside the ruling triad). Her union with Nanna-Sin produces the three gods who govern the core principles of Justice, Passion, and Death."
+    },
+    "attributes": { "domains": ["Motherhood", "Royalty (Divine)"], "epithets": ["The Great Lady"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "consort_of": ["nde:deity::nanna-sin"], "parent_of": ["nde:deity::utu", "nde:deity::inanna", "nde:deity::ereshkigal"], "patron_of": ["nde:loc::ur"] }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Lament for Ur"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: DEITY-sarpanitu-v1.2</code></summary>
+
+```json
+{
+  "FUID": "DEITY-sarpanitu-v1.2",
+  "key": "nde:deity::sarpanitu",
+  "ontological_class": "DEITY",
+  "title": "The Shining One, Queen of Babylon",
+  "ref_name": "Sarpanitu",
+  "content_proposition": {
+    "summary": "The consort of the god Marduk and the queen of the gods in the new Babylonian order. She is a goddess of fertility and is associated with the planet Venus.",
+    "properties": { "ontological_composition": "Divine." },
+    "historical_provenance": [
+      {
+        "epoch": "The New Order",
+        "role": "Her marriage to Marduk was celebrated annually during the New Year festival in Babylon, a sacred marriage rite intended to ensure the continued prosperity and stability of the cosmos he created."
+      }
+    ],
+    "analysis": {
+      "narrative_function": "The 'Queen of the New Order'. Her primary role is to be the consort of the new king, solidifying his dynasty and participating in the sacred rites that maintain his creation."
+    },
+    "attributes": { "domains": ["Fertility", "Royalty (Divine)"], "celestial_body": "Venus" }
+  },
+  "relational_hooks": {
+    "direct_links": { "consort_of": ["nde:deity::marduk"], "parent_of": ["nde:deity::nabu"] }
+  },
+  "development_log": { "version": "1.2", "status": "STABLE." },
+  "metadata": { "primary_textual_sources": ["Enūma Eliš"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: DEITY-nabu-v1.2</code></summary>
+
+```json
+{
+  "FUID": "DEITY-nabu-v1.2",
+  "key": "nde:deity::nabu",
+  "ontological_class": "DEITY",
+  "title": "The Divine Scribe, Prince of the New Order",
+  "ref_name": "Nabu",
+  "content_proposition": {
+    "summary": "The god of scribes, wisdom, and literacy, son of Marduk and heir to the divine throne in the later Babylonian period.",
+    "properties": { "metaphysical_properties": ["He is the divine patron of all intellectual and scribal arts. He carries the stylus as his emblem and is responsible for inscribing the fates as decreed by his father."] },
+    "historical_provenance": [
+      {
+        "epoch": "The New Order (Late Period)",
+        "role": "His cult grew in prominence, and he was seen as the wise and benevolent son who would eventually take over the active administration of the cosmos from his father, Marduk."
+      }
+    ],
+    "analysis": {
+      "theological_implications": "Represents the increasing importance of literacy and bureaucracy in Mesopotamian religion and society. The heir to the divine throne is not a warrior, but a scribe, suggesting that the new age of order is maintained by knowledge and record-keeping, not by constant warfare.",
+      "narrative_function": "The 'Crown Prince'. He ensures the dynastic stability of Marduk's new order and represents its future."
+    },
+    "attributes": { "domains": ["Wisdom", "Writing", "Scribes", "Literacy"], "emblem": ["The Stylus"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "child_of": ["nde:deity::marduk", "nde:deity::sarpanitu"] }
+  },
+  "development_log": { "version": "1.2", "status": "STABLE." },
+  "metadata": { "primary_textual_sources": ["Late Babylonian Religious Texts"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+<details>
+<summary><code>FUID: DEITY-anshar_and_kishar-v1.2</code></summary>
+
+```json
+{
+  "FUID": "DEITY-anshar_and_kishar-v1.2",
+  "key": "nde:deity::anshar_and_kishar",
+  "ontological_class": "DEITY",
+  "title": "The Primordial Pivots of the Cosmos",
+  "ref_name": "Anshar & Kishar",
+  "content_proposition": {
+    "summary": "A pair of second-generation primordial gods, male and female, who represent the concepts of the 'celestial pivot' (Anshar) and the 'terrestrial pivot' (Kishar). They are the parents of Anu in the Babylonian tradition.",
+    "properties": { "ontological_composition": "Divine. They are the offspring of the first gods, Lahmu and Lahamu, and represent a further stage of cosmic differentiation." },
+    "historical_provenance": [
+      { "epoch": "The Primordial Age", "event": "nde:event::primordial_genesis", "role": "Represented a more defined level of cosmic order than their parents, embodying the concepts of the horizons or the fundamental axes of the universe. They gave birth to Anu, the god of the sky, thereby continuing the divine lineage." }
+    ],
+    "analysis": { "narrative_function": "A crucial genealogical link in the *Enūma Eliš*, connecting the formless first gods to the more anthropomorphic high gods of the established pantheon." }
+  },
+  "relational_hooks": { "direct_links": { "parent_of": ["nde:deity::an"], "child_of": ["nde:deity::lahmu_and_lahamu"] } },
+  "development_log": { "version": "1.2", "status": "STABLE." },
+  "metadata": { "primary_textual_sources": ["Enūma Eliš (Tablet I)"], "data_fidelity": "FUSED" }
+}
+```
+</details>
+<details>
+<summary><code>FUID: DEITY-lahmu_and_lahamu-v1.2</code></summary>
+
+```json
+{
+  "FUID": "DEITY-lahmu_and_lahamu-v1.2",
+  "key": "nde:deity::lahmu_and_lahamu",
+  "ontological_class": "DEITY",
+  "title": "The Hairy Ones, Firstborn of Chaos",
+  "ref_name": "Lahmu & Lahamu",
+  "content_proposition": {
+    "summary": "A pair of serpentine or hairy-bodied primordial deities, male and female, who were the first beings to be born from the mingling of the waters of Apsu and Tiamat.",
+    "properties": { "ontological_composition": "Primordial Divine Beings. Their nature is nebulous, representing the first stage of differentiation from chaos." },
+    "historical_provenance": [
+      { "epoch": "The Primordial Age", "event": "nde:event::primordial_genesis", "role": "Represented the first generation of gods. They came into being and were named, then gave birth to Anshar and Kishar, furthering the process of cosmic creation." }
+    ],
+    "analysis": { "narrative_function": "The first link in the divine genealogy. They are 'begetters and begotten', serving to bridge the gap between the original undifferentiated state and the later, more complex generations of gods." }
+  },
+  "relational_hooks": { "direct_links": { "parent_of": ["nde:deity::anshar_and_kishar"], "child_of": ["nde:deity::apsu", "nde:deity::tiamat"] } },
+  "development_log": { "version": "1.2", "status": "STABLE." },
+  "metadata": { "primary_textual_sources": ["Enūma Eliš (Tablet I)"], "data_fidelity": "FUSED" }
 }
 ```
 </details>
@@ -1274,6 +1636,45 @@
 </details>
 
 <details>
+<summary><code>FUID: ENTITY-scorpion_beings-v1.2</code></summary>
+
+```json
+{
+  "FUID": "ENTITY-scorpion_beings-v1.2",
+  "key": "nde:entity::scorpion_beings",
+  "ontological_class": "ENTITY",
+  "title": "The Terrifying Guardians of the Sun's Gate",
+  "ref_name": "Scorpion-Beings",
+  "content_proposition": {
+    "summary": "A pair of terrifying, semi-divine beings, male and female, who guard the great gate of Mount Mashu through which the sun passes each day. Their gaze is death, but they are capable of reason and compassion.",
+    "properties": {
+      "physical_description": ["Hybrid beings whose upper bodies are human and whose lower bodies are that of a scorpion.", "Their 'splendour' or 'aura' is described as awesome and terrifying, capable of overwhelming mortals with fear."],
+      "ontological_composition": "Semi-divine beings. The male is named Girtablullû.",
+      "powers_and_abilities": { "primary_ability": "'Gaze of Death'. Their stare is said to be lethal to mortals." }
+    },
+    "historical_provenance": [
+      {
+        "epoch": "The Heroic Age",
+        "event": "nde:event::quest_for_immortality",
+        "role": "Acted as the guardians of the threshold at `nde:loc::mashu_mountain`. They confronted Gilgamesh, but the male being recognized his semi-divine nature and, moved by the profound grief motivating his quest, they made an exception and opened the gate for him, warning him of the perilous journey ahead."
+      }
+    ],
+    "analysis": {
+      "theological_implications": "They represent the principle that the boundaries of the divine world are not absolute, but can be passed by mortals who demonstrate an extraordinary and worthy purpose. They are guardians, not mindless executioners.",
+      "narrative_function": "The 'Guardians of the Threshold' archetype. They are the first supernatural test on the hero's quest. Unlike Humbaba, they are not defeated by force but are persuaded by the hero's worthiness and the depth of his suffering, demonstrating the quest's shift from a physical to a more spiritual challenge."
+    },
+    "attributes": { "domains": ["Guardianship", "Boundaries", "Terror"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "domain_of_guardianship": ["nde:loc::mashu_mountain"], "permitted_passage_to": ["nde:character::gilgamesh"] }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablet IX)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+
+<details>
 <summary><code>FUID: DEITY-nergal-v1.2</code></summary>
 
 ```json
@@ -1421,6 +1822,183 @@
     ]
   },
   "metadata": { "primary_textual_sources": ["The Myth of Anzû", "The Feats of Ninurta"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: ENTITY-the_eleven_monsters-v1.2</code></summary>
+
+```json
+{
+"FUID": "ENTITY-the_eleven_monsters-v1.2",
+"key": "nde:entity::the_eleven_monsters",
+"ontological_class": "ENTITY (Collective Divine Construct)",
+"title": "The Spawn of Chaos, Tiamat's Monstrous Host",
+"ref_name": "The Eleven Monsters",
+"content_proposition": {
+"summary": "A host of eleven powerful and terrifying monstrous beings, created by the primordial goddess Tiamat to serve as her elite army in her cosmic war against the younger gods.",
+"properties": {
+"origin": "An act of 'teratogenesis' (monstrous birth). They were not pre-existing entities, but were spawned directly by Tiamat in an act of twisted creation fueled by her rage.",
+"general_attributes": [
+"Described as bearing 'invincible weapons' and being 'merciless of fang'.",
+"Filled with poison instead of blood.",
+"Clothed in terror and decked in splendor, their forms were so awesome that to behold them was to be overcome with fear."
+]
+},
+"historical_provenance": [
+{
+"epoch": "The Primordial Age",
+"event": "nde:event::cosmic_war",
+"role": "Acted as the front-line army for the forces of chaos under the direct command of `nde:deity::kingu`. Their terrifying presence caused the initial champions of the gods, Ea and Anu, to turn back in fear. Following Marduk's victory over Tiamat, their power was broken, they were captured, and their opposition was trampled."
+}
+],
+"analysis": {
+"theological_implications": "Represent the physical manifestation of primordial chaos unleashed. They are not natural beasts, but living weapons born from a perversion of the creative process. Their hybrid forms—part animal, part human, part monster—are a violation of the natural order that the younger gods seek to establish.",
+"narrative_function": "Serve as the primary obstacle that establishes the extreme threat posed by Tiamat, justifying the gods' terror and the necessity of elevating Marduk to a position of supreme power. They are the 'dragon's teeth' that the hero must overcome.",
+"political_implications": "The creation of this army represents Tiamat's formal declaration of total war and her complete rejection of the existing divine order. They are her bespoke military force, loyal only to her."
+},
+"attributes": {
+"domains": ["Chaos", "War", "Monstrosity", "Terror"],
+"roster_of_monsters": [
+{ "name": "Bašmu", "description": "The 'Venomous Snake', a great horned serpent." },
+{ "name": "Ušumgallu", "description": "The 'Great Dragon', a leonine dragon-like beast." },
+{ "name": "Mušḫuššu", "description": "The 'Furious Snake', a horned serpent-dragon with feline and avian features. Later becomes Marduk's personal emblem." },
+{ "name": "Laḫmu-hero", "description": "The 'Hairy One', a primordial hero-figure, often associated with Enki." },
+{ "name": "Ugallu", "description": "The 'Great Weather-Beast', a lion-headed demon." },
+{ "name": "Uridimmu", "description": "The 'Mad Lion', a lion-humanoid hybrid." },
+{ "name": "Girtablullû", "description": "The 'Scorpion-Man', a hybrid of man and scorpion." },
+{ "name": "Umū dabrūtu", "description": "The 'Violent Storms', personified as demonic beasts." },
+{ "name": "Kulullû", "description": "The 'Fish-Man', a human-fish hybrid." },
+{ "name": "Kusarikku", "description": "The 'Bull-Man', a human-bull hybrid associated with the sun god Utu." },
+{ "name": "The Hurricane", "description": "A personified storm demon." }
+]
+}
+},
+"relational_hooks": {
+"direct_links": { "creator": ["nde:deity::tiamat"], "field_commander": ["nde:deity::kingu"], "primary_adversary": ["nde:deity::marduk"] },
+"causal_links": { "cause": "Tiamat's need for an army in the `nde:event::cosmic_war`.", "effect": "Their terrifying power directly causes the initial failure of the established gods, necessitating the rise of Marduk." },
+"timeline": { "epoch": "I. The Primordial Age", "sequence": 3.2 }
+},
+"development_log": { "version": "1.2", "status": "COMPLETE. Future expansion to create individual CROs for each monster type remains a low priority." },
+"metadata": { "primary_textual_sources": ["Enūma Eliš"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+<details>
+<summary><code>FUID: ARTIFACT-bull_of_heaven-v1.2</code></summary>
+
+```json
+{
+"FUID": "ARTIFACT-bull_of_heaven-v1.2",
+"key": "nde:artifact::bull_of_heaven",
+"ontological_class": "ENTITY (Divine Construct)",
+"title": "The Bull of Heaven, Weapon of Divine Retribution",
+"ref_name": "Bull of Heaven",
+"content_proposition": {
+"summary": "A monstrous and supernaturally powerful bull, a divine construct created by the sky god Anu at the enraged demand of his daughter Ishtar, designed to unleash devastating drought and destruction upon the city of Uruk as retribution against Gilgamesh.",
+"properties": {
+"physical_description": ["A bull of celestial size and power. Its horns were so massive that, after its defeat, they could hold 'six measures' of oil and were plated with lapis lazuli."],
+"ontological_composition": "A unique, divine construct. It is not a natural animal, nor is it a primordial monster born of chaos. It is a purpose-built weapon, a living catastrophe engineered by the King of the Gods.",
+"powers_and_abilities": {
+"primary_attack_vector": "Drought and Fissures. With its first snort, it created a chasm that swallowed one hundred men. With its second snort, two hundred more. Its presence personifies and generates catastrophic drought."
+},
+"deployment": "Unleashed by Ishtar directly into the city of Uruk to cause maximum chaos and punish the populace for their king's transgression."
+},
+"historical_provenance": [
+{
+"epoch": "The Heroic Age",
+"event": "nde:event::rejection_of_ishtar",
+"role": "Acted as the primary instrument of Ishtar's revenge. After causing massive damage, it was confronted and slain by Gilgamesh and Enkidu. Enkidu further desecrated its corpse by tearing off its thigh and throwing it at the goddess."
+}
+],
+"analysis": {
+"theological_implications": "Represents the terrifying capacity of the gods to weaponize natural disasters. The Bull is a living drought, a divine punishment that is both personal (Ishtar's rage) and cosmic (Anu's power). Its slaying is the heroes' second great sacrilege, as they destroy not a chaotic monster, but a divinely-sanctioned instrument of punishment.",
+"astronomical_correlation": "The Bull of Heaven is widely understood to be the mythological representation of the constellation Taurus. The narrative of its slaying may be an etiological myth explaining the symbolic relationship between the hero (Gilgamesh/Orion) and the bull in the night sky.",
+"narrative_function": "The physical manifestation of a divine curse. It raises the stakes from a personal insult into a full-blown attack on the hero's kingdom, and its defeat serves as the 'final straw' that solidifies the divine council's judgment against the transgressive duo."
+},
+"attributes": { "domains": ["Retribution", "Drought", "Divine Weapons", "Catastrophe"] }
+},
+"relational_hooks": {
+"direct_links": { "creator": ["nde:deity::an"], "deploying_agent": ["nde:deity::inanna"], "slayers": ["nde:character::gilgamesh", "nde:character::enkidu"], "target": ["nde:loc::uruk"] },
+"causal_links": { "cause": "The need for a tangible weapon in `nde:event::rejection_of_ishtar`.", "effect": "Its slaying is a primary justification for `nde:event::death_of_enkidu`." },
+"timeline": { "epoch": "III. The Heroic Age", "sequence": 11.0 }
+},
+"development_log": { "version": "1.2", "status": "COMPLETE." },
+"metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablet VI)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+<details>
+<summary><code>FUID: ARTIFACT-life-giving_substances-v1.2</code></summary>
+
+```json
+{
+"FUID": "ARTIFACT-life-giving_substances-v1.2",
+"key": "nde:artifact::life-giving_substances",
+"ontological_class": "ARTIFACT",
+"title": "The Twin Instruments of Resurrection",
+"ref_name": "Life-Giving Plant & Water",
+"content_proposition": {
+"summary": "A matched pair of divine, unique artifacts, the 'Plant that Gives Life' and the 'Water that Gives Life', which, when used in conjunction, possess the power to resurrect a dead god.",
+"properties": {
+"physical_description": ["The specific forms of the plant and the container for the water are not described. They are defined by their function, not their appearance."],
+"metaphysical_properties": [
+"These artifacts do not grant immortality, but rather perform a one-time reversal of the state of death.",
+"Their power is potent enough to overcome the judgment of the Anunna and the laws of the Underworld, though they do not negate the consequences (i.e., the `nde:rule::law_of_substitution`)."
+],
+"scope_and_limitations": {
+"scope": "Demonstrated to be effective on a great god (Inanna) who has been dead for three days.",
+"limitations": "Their application appears to be highly ritualized and requires precise administration. They do not appear to be effective on mortals. They are in the sole possession of the god `nde:deity::enki`."
+}
+},
+"historical_provenance": [
+{ "epoch": "The Heroic Age", "event": "nde:event::descent_of_inanna", "usage": "Bestowed by Enki upon his creations, the `nde:entity::kurjara_galatura`, to sprinkle on the corpse of Inanna in the Underworld, thereby effecting her resurrection." }
+],
+"analysis": {
+"theological_implications": "Represents the principle that death is not necessarily an absolute end, but a condition that can be overcome through secret divine knowledge and specialized tools. It reinforces Enki's status as a master of life's fundamental secrets.",
+"narrative_function": "The ultimate 'divine defibrillator'. It is the key magical item in any resurrection narrative, representing the only known method for reversing death."
+}
+},
+"relational_hooks": {
+"direct_links": { "sole_possessor": ["nde:deity::enki"], "utilized_by": ["nde:entity::kurjara_galatura"] }
+},
+"development_log": { "version": "1.2", "status": "COMPLETE.", "planned_expansions": ["Analysis of any textual differences between the 'life-giving plant' and Gilgamesh's `plant_of_rejuvenation` to determine if they are related."] },
+"metadata": { "primary_textual_sources": ["Inanna's Descent to the Nether World"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+<details>
+<summary><code>FUID: ENTITY-kurjara_galatura-v1.2</code></summary>
+
+```json
+{
+"FUID": "ENTITY-kurjara_galatura-v1.2",
+"key": "nde:entity::kurjara_galatura",
+"ontological_class": "ENTITY",
+"title": "The Twin Emissaries of Empathy",
+"ref_name": "Kurjara and Galatura",
+"content_proposition": {
+"summary": "A pair of asexual beings created by the god Enki from the dirt beneath his fingernails, engineered for the specific purpose of bypassing the defenses of the Underworld to resurrect the goddess Inanna.",
+"properties": {
+"physical_description": ["Their form is described as being able to 'flit past the door like flies' and 'slip through the door pivots like phantoms', suggesting they are small, unassuming, or quasi-incorporeal."],
+"metaphysical_properties": ["As sexless beings, they are immune to the masculine and feminine charms and powers of the Underworld. Their core attribute is empathy; their ability to perfectly mirror the grief of Ereshkigal is their key to gaining her favor."]
+},
+"historical_provenance": [
+{
+"epoch": "The Heroic Age",
+"event": "nde:event::descent_of_inanna",
+"role": "Created by Enki, they traveled to the Underworld, gained Ereshkigal's trust by empathizing with her suffering, and secured the release of Inanna's corpse. They then administered the `nde:artifact::life-giving_substances` to resurrect her."
+}
+],
+"analysis": {
+"theological_implications": "Represents Enki's mastery over creation, able to craft life for a specific, highly-specialized purpose. Their success through empathy, rather than force, presents an alternative model for overcoming obstacles.",
+"narrative_function": "Act as Enki's 'special forces', unique agents perfectly designed for an impossible mission. They are the instruments of the 'deus ex machina'."
+}
+},
+"relational_hooks": { "direct_links": { "creator": ["nde:deity::enki"], "wielded_artifacts": ["nde:artifact::life-giving_substances"] } },
+"development_log": { "version": "1.2", "status": "COMPLETE." },
+"metadata": { "primary_textual_sources": ["Inanna's Descent to the Nether World"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
 }
 ```
 </details>
@@ -2478,4 +3056,343 @@ This sequence establishes the origin of humanity. It begins with the divine cris
 ```
 </details>
 
+<details>
+<summary><code>FUID: EVENT-coming_of_enkidu-v1.2</code></summary>
+
+```json
+{
+  "FUID": "EVENT-coming_of_enkidu-v1.2",
+  "key": "nde:event::coming_of_enkidu",
+  "ontological_class": "EVENT",
+  "title": "The Coming of the Second Self: The Taming of Enkidu and the Forging of a Hero",
+  "ref_name": "The Coming of Enkidu",
+  "content_proposition": {
+    "summary": "A divine intervention in which the gods create Enkidu, a wild man of equal strength, to serve as a rival to the tyrannical king Gilgamesh. The subsequent 'taming' of Enkidu and his confrontation with Gilgamesh result in a profound friendship that transforms them both and initiates the Heroic Age.",
+    "properties": {
+      "catalyst": "The prayers of the oppressed citizens of `nde:loc::uruk`, lamenting the tyranny of their king, `nde:character::gilgamesh`, who exhausts the men with labor and claims the brides for himself.",
+      "divine_objective": "To create a 'second self' or 'equal' to Gilgamesh in order to absorb his boundless energy, check his arrogance, and restore balance to the city."
+    },
+    "historical_provenance": {
+      "epoch": "The Heroic Age",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Creation of the Counterpart", "description": "Hearing the pleas of Uruk's people, the high god Anu commands the creation goddess `nde:deity::aruru` to fashion a rival for Gilgamesh. She creates `nde:character::enkidu` from clay, a primordial man who lives wild with the animals." },
+        { "phase": 2, "title": "The Encounter with Civilization", "description": "A trapper's livelihood is ruined by Enkidu. On advice, the trapper is given the temple courtesan, `nde:character::shamhat`, as an agent of civilization." },
+        { "phase": 3, "title": "The Initiation and Rejection", "description": "Shamhat seduces Enkidu. After their union, his connection to the wild is severed; the animals now flee from him. He gains 'wisdom' but loses his natural state." },
+        { "phase": 4, "title": "The Process of Humanization", "description": "Shamhat teaches Enkidu to eat bread, drink wine, and wear clothes. He accepts the role of a shepherd, transitioning his strength from a force of nature to a force for civilization." },
+        { "phase": 5, "title": "The Confrontation and Synthesis", "description": "Enkidu travels to Uruk to challenge Gilgamesh. They engage in a titanic wrestling match. Gilgamesh is victorious, but upon recognizing Enkidu's equality, his fury dies, and they embrace, sealing an unbreakable friendship." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": {
+        "balance_as_divine_will": "The gods solve tyranny not by destroying the tyrant, but by creating a balancing force. This implies the divine ideal is the proper channeling of immense power, not its absence.",
+        "civilization_as_seduction": "The taming of Enkidu is accomplished through culture and sexuality, not force. This frames civilization as a powerful, seductive force that grants wisdom at the cost of severing one's connection to the natural state."
+      },
+      "psychological_implications": "The event is an allegory for personal integration. Gilgamesh (over-civilized ego) and Enkidu (wild, instinctual shadow) must unite to form a complete, balanced heroic psyche.",
+      "narrative_function": "The essential inciting incident for the entire Gilgamesh cycle. It provides the king with his necessary companion, resolves his initial character flaw (tyranny), and re-directs his energy towards the great heroic deeds that will follow."
+    },
+    "attributes": { "domains": ["Civilization vs. Nature", "Friendship", "Balance", "Divine Intervention"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "protagonists": ["nde:character::gilgamesh", "nde:character::enkidu"], "instigating_body": ["nde:deity::an"], "agent_of_civilization": ["nde:character::shamhat"] },
+    "causal_links": { "cause": "The tyranny of Gilgamesh over the city of Uruk.", "effect": "The formation of the heroic duo, which directly enables the `nde:event::forest_journey_humbaba`." },
+    "timeline": { "epoch": "III. The Heroic Age", "sequence": 8.0 }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablets I-II)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: EVENT-forest_journey_humbaba-v1.2</code></summary>
+
+```json
+{
+  "FUID": "EVENT-forest_journey_humbaba-v1.2",
+  "key": "nde:event::forest_journey_humbaba",
+  "ontological_class": "EVENT",
+  "title": "The Conquest of the Sacred Wilderness: The Slaying of Humbaba",
+  "ref_name": "Forest Journey",
+  "content_proposition": {
+    "summary": "The first great heroic quest undertaken by Gilgamesh and Enkidu, in which they journey to the sacred Cedar Forest, slay its monstrous divine guardian Humbaba, and plunder its holy timber, an act of supreme hubris that earns them immortal fame among mortals but condemnation from the chief god, Enlil.",
+    "properties": {
+      "protagonist_motive": "The desire to achieve immortal fame and 'set up a name'. A secondary motive is the acquisition of valuable cedar wood for the city of Uruk.",
+      "divine_edict_violated": "The unauthorized intrusion into a sacred divine precinct (`nde:loc::cedar_forest`) and the murder of a divinely appointed official (`nde:character::humbaba`) serving under the direct authority of `nde:deity::enlil`."
+    },
+    "historical_provenance": {
+      "epoch": "The Heroic Age",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Declaration of Intent", "description": "Gilgamesh declares his plan to journey to the Cedar Forest. The elders of Uruk counsel against the perilous and transgressive venture." },
+        { "phase": 2, "title": "The Plea for Divine Aid", "description": "Gilgamesh and his mother, `nde:deity::ninsun`, pray to the sun god `nde:deity::utu`. Utu agrees to lend his aid by commanding the great winds, though this sanction is his alone and not from the entire pantheon." },
+        { "phase": 3, "title": "The Confrontation and Battle", "description": "The heroes enter the forest and confront Humbaba. At Gilgamesh's desperate plea, Utu unleashes the winds, which blind and immobilize Humbaba, allowing the heroes to capture him." },
+        { "phase": 4, "title": "The Fateful Decision", "description": "The defeated Humbaba pleads for his life. Gilgamesh is moved to compassion, but Enkidu argues with cold pragmatism that showing mercy would be a fatal mistake. Persuaded by his friend, Gilgamesh delivers the final blow." },
+        { "phase": 5, "title": "The Divine Judgment", "description": "The heroes return and present the head of Humbaba to Enlil. Instead of praise, Enlil is filled with rage, cursing them for their act and marking it as a grave transgression." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": "'Heroism' from a mortal perspective (achieving fame, conquering a monster) can be 'sacrilege' from a divine one (murdering an official, violating a sacred space). It demonstrates that the sanction of one god (Utu) does not grant immunity from the judgment of the greater divine council.",
+      "political_implications": "Represents the conflict between the ambitions of the emergent city-state (Uruk) and the authority of the old divine order (Enlil). Gilgamesh's desire to use the divine forest's resources for his own glory is a direct challenge to cosmic sovereignty.",
+      "narrative_function": "The central heroic deed of the epic's first act. It solidifies the bond between Gilgamesh and Enkidu, establishes their legendary fame, and provides the primary 'crime' for which the gods will later demand retribution."
+    },
+    "attributes": { "domains": ["Hubris", "Heroism", "Sacrilege", "Conquest"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "protagonists": ["nde:character::gilgamesh", "nde:character::enkidu"], "antagonist": ["nde:character::humbaba"], "location": ["nde:loc::cedar_forest"] },
+    "causal_links": { "cause": "`nde:event::coming_of_enkidu`, which created the heroic partnership.", "effect": "Directly causes `nde:event::rejection_of_ishtar` and provides the primary justification for `nde:event::death_of_enkidu`." },
+    "timeline": { "epoch": "III. The Heroic Age", "sequence": 9.0 }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablets III-V)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: EVENT-transfer_of_the_me-v1.2</code></summary>
+
+```json
+{
+  "FUID": "EVENT-transfer_of_the_me-v1.2",
+  "key": "nde:event::transfer_of_the_me",
+  "ontological_class": "EVENT",
+  "title": "The Heist of Civilization: Inanna's Acquisition of the Divine Decrees",
+  "ref_name": "Transfer of the Me",
+  "content_proposition": {
+    "summary": "The pivotal mythological event in which the ambitious goddess Inanna travels to the ancient city of Eridu and, through cunning and hospitality, acquires the complete set of divine decrees (the Me) from a drunken Enki, thereby transferring cultural supremacy to her own city, Uruk.",
+    "properties": {
+      "catalyst": "Inanna's ambition and her desire to elevate the status and glory of her patron city, Uruk.",
+      "methodology": "The transfer was achieved through cunning and social ritual, not force. Inanna engages Enki in a great feast and drinking contest, a context in which his generosity overwhelms his customary wisdom and caution."
+    },
+    "historical_provenance": {
+      "epoch": "The Heroic Age",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Plan", "description": "Inanna resolves to acquire the `nde:rule::the_me` to enrich her city. She prepares herself and travels in her 'Boat of Heaven' to Enki's temple in Eridu." },
+        { "phase": 2, "title": "The Feast", "description": "Enki, foreseeing her arrival but charmed by her presence, welcomes her. They engage in a feast, and a great drinking contest ensues." },
+        { "phase": 3, "title": "The Bestowment", "description": "In a state of profound intoxication, a magnanimous Enki 'gives' all of the Me—over one hundred divine decrees, from 'Kingship' to 'Smithing'—to Inanna as a gift." },
+        { "phase": 4, "title": "The Escape", "description": "Inanna loads the Me onto her boat and immediately departs for Uruk. A sober and regretful Enki sends his vizier Isimud and a host of sea monsters (`lahmu-heroes`) in a series of attempts to retrieve the stolen decrees." },
+        { "phase": 5, "title": "The Triumph", "description": "Through her own power and cunning, Inanna successfully navigates the obstacles and arrives triumphantly at Uruk, where the Me are unloaded, cementing her city's new status as the center of civilization." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": "Demonstrates that the divine gifts that underpin civilization are not static possessions. They can be moved, transferred, and acquired by ambitious deities. It establishes Inanna as a goddess of progress and cultural acquisition.",
+      "political_implications": "This myth serves as the definitive divine charter for the historical ascendancy of Uruk over the older, more established religious center of Eridu. It frames Uruk's dominance not as a military conquest, but as the result of its patron goddess's superior cunning and ambition.",
+      "narrative_function": "A foundational 'trickster' tale that establishes Inanna's core character traits: ambition, cunning, and a willingness to bend the rules to achieve her goals. It also highlights Enki's key weakness: his love of beer and feasting."
+    },
+    "attributes": { "domains": ["Cunning", "Acquisition", "Civilization", "Divine Politics"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "protagonist": ["nde:deity::inanna"], "antagonist_victim": ["nde:deity::enki"], "key_objective": ["nde:rule::the_me"] },
+    "causal_links": { "effect": "The elevation of `nde:loc::uruk` to the status of the primary cultural center of the world." },
+    "timeline": { "epoch": "III. The Heroic Age", "sequence": 10.0 }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Inana and Enki"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+
+<details>
+<summary><code>FUID: EVENT-rejection_of_ishtar-v1.2</code></summary>
+
+```json
+{
+  "FUID": "EVENT-rejection_of_ishtar-v1.2",
+  "key": "nde:event::rejection_of_ishtar",
+  "ontological_class": "EVENT",
+  "title": "The Clash of Hubris: The Rejection of Ishtar and the Slaying of the Bull of Heaven",
+  "ref_name": "Rejection of Ishtar",
+  "content_proposition": {
+    "summary": "The pivotal confrontation in which a triumphant but hubristic Gilgamesh brutally scorns the romantic propositions of the goddess Ishtar, prompting her to unleash the destructive Bull of Heaven upon Uruk, a beast the heroic duo then slays in a further act of defiance.",
+    "properties": { "catalyst": "The fame and heroic stature achieved by `nde:character::gilgamesh` following his victory over Humbaba, which attracts the amorous and opportunistic attention of `nde:deity::inanna` (Ishtar)." },
+    "historical_provenance": {
+      "epoch": "The Heroic Age",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Divine Proposition", "description": "Upon his triumphant return to Uruk, Gilgamesh is seen by Ishtar, who offers him marriage and divine status." },
+        { "phase": 2, "title": "The Scornful Rejection", "description": "Gilgamesh rejects her with a brutal diatribe, cataloging the terrible fates of her previous lovers, effectively accusing her of being a treacherous partner." },
+        { "phase": 3, "title": "The Appeal to Higher Authority", "description": "Publicly humiliated, Ishtar demands that her father, Anu, give her the `nde:artifact::bull_of_heaven`. When he hesitates, she threatens to break down the gates of the underworld." },
+        { "phase": 4, "title": "The Retaliation", "description": "Anu relents. Ishtar unleashes the Bull upon Uruk, where it kills hundreds." },
+        { "phase": 5, "title": "The Compounding Transgression", "description": "Enkidu and Gilgamesh slay the divine beast. Enkidu then tears off the Bull's thigh and throws it at the goddess, an act of ultimate disrespect." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": "Demonstrates the extreme peril of disrespecting a god. While the gods are not morally perfect, their honor is a cornerstone of the cosmic order. The heroes' mockery and defiance of a primary goddess is a capital offense.",
+      "narrative_function": "The 'Point of No Return' for the heroes' tragic fate. Slaying Humbaba was a crime against divine *law*, but this is a crime against divine *honor*. This egregious transgression forces the hand of the divine council, making a lethal judgment unavoidable."
+    },
+    "attributes": { "domains": ["Hubris", "Revenge", "Divine Honor", "Sacrilege"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "protagonists": ["nde:character::gilgamesh", "nde:character::enkidu"], "antagonist": ["nde:deity::inanna"], "instrument": ["nde:artifact::bull_of_heaven"] },
+    "causal_links": { "cause": "`nde:event::forest_journey_humbaba`.", "effect": "Serves as the proximate cause and primary legal justification for `nde:event::death_of_enkidu`." },
+    "timeline": { "epoch": "III. The Heroic Age", "sequence": 11.0 }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablet VI)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+
+<details>
+<summary><code>FUID: EVENT-descent_of_inanna-v1.2</code></summary>
+
+```json
+{
+  "FUID": "EVENT-descent_of_inanna-v1.2",
+  "key": "nde:event::descent_of_inanna",
+  "ontological_class": "EVENT",
+  "title": "The Conquest of Death: Inanna's Descent to the Nether World",
+  "ref_name": "Inanna's Descent",
+  "content_proposition": {
+    "summary": "The central myth of the goddess Inanna, detailing her ambitious journey to the Underworld to conquer the domain of her sister Ereshkigal, her subsequent death at the hands of the Anunna judges, her miraculous resurrection through the cunning of Enki, and the terrible price she pays to satisfy the Law of Substitution.",
+    "properties": { "protagonist_motive": "Ambiguous and profound. The text states her motive is to attend her brother-in-law's funeral, but the symbolic interpretation is that she seeks to conquer the final domain not under her control: Death itself." },
+    "historical_provenance": {
+      "epoch": "The Heroic Age",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Deliberation & Precaution", "description": "Inanna gathers her seven `Me`, adorns herself, and instructs her loyal vizier `nde:character::nincubura` on a precise lamentation protocol to follow should she not return in three days." },
+        { "phase": 2, "title": "The Stripping at the Seven Gates", "description": "She arrives at the gates of the `nde:loc::kur_underworld`. At each of the seven gates, she is forced to relinquish one of her divine garments or symbols of power, arriving naked and powerless before her sister's throne." },
+        { "phase": 3, "title": "The Judgment and Death", "description": "She is judged guilty by the `nde:deity::anunna`, the seven judges of the underworld. They fix upon her the 'eye of death', and she is turned into a corpse and hung on a hook." },
+        { "phase": 4, "title": "The Intervention", "description": "After three days, Nincubura executes the plan, appealing to Enlil and Nanna-Sin, who refuse to break the laws of the underworld. She then appeals to `nde:deity::enki`, who, out of compassion and wisdom, creates the `nde:entity::kurjara_galatura` to carry out a rescue." },
+        { "phase": 5, "title": "The Resurrection", "description": "The emissaries trick Ereshkigal into giving them the corpse, and they revive Inanna with the `nde:artifact::life-giving_substances`." },
+        { "phase": 6, "title": "The Terrible Price", "description": "As she ascends, the Anunna inform her that the `nde:rule::law_of_substitution` must be satisfied. Accompanied by the `nde:entity::gallu_demons`, she is forced to choose a substitute. She finds her husband, `nde:character::dumuzi`, celebrating rather than mourning, and condemns him to take her place." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": "The most detailed exploration of the Mesopotamian afterlife and its immutable laws. It establishes that death is a great equalizer that strips all beings of power and that not even the greatest gods can violate its core principles without paying a terrible price. It is a profound meditation on the themes of hubris, sacrifice, and the cyclical nature of life and death.",
+      "narrative_function": "The defining myth of the goddess Inanna, showcasing her ambition, her vulnerability, and her ultimate transformation. It is the archetypal 'harrowing of hell' narrative in Mesopotamian literature."
+    },
+    "attributes": { "domains": ["Hubris", "Death & Rebirth", "Sacrifice", "Divine Law"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "protagonist": ["nde:deity::inanna"], "antagonist": ["nde:deity::ereshkigal"], "savior": ["nde:deity::enki"], "sacrificial_victim": ["nde:character::dumuzi"], "key_law": ["nde:rule::law_of_substitution"] },
+    "timeline": { "epoch": "III. The Heroic Age", "sequence": 12.0 }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Inanna's Descent to the Nether World"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: EVENT-death_of_enkidu-v1.2</code></summary>
+
+```json
+{
+  "FUID": "EVENT-death_of_enkidu-v1.2",
+  "key": "nde:event::death_of_enkidu",
+  "ontological_class": "EVENT",
+  "title": "The Divine Judgment: The Sacrificial Death of the Second Self",
+  "ref_name": "Death of Enkidu",
+  "content_proposition": {
+    "summary": "The divine retribution for the accumulated transgressions of Gilgamesh and Enkidu, in which the divine council, led by Enlil, formally condemns one of the two heroes to die. Enkidu is chosen and afflicted with a terminal illness, and his slow death provides Gilgamesh with a terrifying vision of mortality that shatters his heroic identity.",
+    "properties": {
+      "catalyst": "The cumulative hubris of the heroic duo, specifically the unsanctioned slaying of Humbaba and the public humiliation of Ishtar coupled with the destruction of the Bull of Heaven.",
+      "legal_basis": { "charge": "Gross sacrilege and defiance of the divine order.", "defense": "The sun god `nde:deity::utu`, their divine patron, argued for their innocence but was overruled.", "judge_and_sentencer": "The chief god `nde:deity::enlil` delivered the final, irrevocable sentence." }
+    },
+    "historical_provenance": {
+      "epoch": "The Heroic Age",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Divine Council", "description": "Enkidu dreams of the council debating the heroes' crimes. Despite Utu's defense, Enlil decrees that one must die, and Enkidu is chosen." },
+        { "phase": 2, "title": "The Vision of the Underworld", "description": "Stricken by illness, Enkidu has a second, terrifying dream in which he is dragged to the `nde:loc::kur_underworld`, providing a detailed, harrowing description of the 'House of Dust'." },
+        { "phase": 3, "title": "The Death and The Lament", "description": "After twelve days of suffering, Enkidu dies. Gilgamesh is consumed by a grief so profound that he only accepts the death after a worm drops from the corpse." },
+        { "phase": 4, "title": "The Transformation of the Hero", "description": "Enkidu's death shatters Gilgamesh. He is replaced by a man consumed by grief and a visceral terror of his own mortality. He casts off his royal robes and resolves to wander the wilderness." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": "The 'Sacrificial Twin' Principle: The heroes acted as one unit, thus the punishment can be paid by one. As the more mortal of the two, Enkidu is sacrificed to pay the cosmic debt for the actions of both. It also shows that the judgment of the high council is inescapable.",
+      "narrative_function": "The pivotal plot point of the epic. It ends the heroic adventure narrative of the first half and directly catalyzes the tragic, philosophical quest narrative of the second half."
+    },
+    "attributes": { "domains": ["Divine Judgment", "Retribution", "Grief", "Mortality"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "primary_victim": ["nde:character::enkidu"], "primary_mourner": ["nde:character::gilgamesh"], "sentencing_judge": ["nde:deity::enlil"] },
+    "causal_links": { "cause": "A direct result of `nde:event::forest_journey_humbaba` and `nde:event::rejection_of_ishtar`.", "effect": "The direct and sole cause of `nde:event::quest_for_immortality`." },
+    "timeline": { "epoch": "III. The Heroic Age", "sequence": 13.0 }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablet VII-VIII)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: EVENT-enlil_and_ninlil-v1.2</code></summary>
+
+```json
+{
+  "FUID": "EVENT-enlil_and_ninlil-v1.2",
+  "key": "nde:event::enlil_and_ninlil",
+  "ontological_class": "EVENT",
+  "title": "The Crime of the King: Enlil's Banishment and the Founding of a Dynasty",
+  "ref_name": "Enlil and Ninlil",
+  "content_proposition": {
+    "summary": "The foundational myth detailing the transgressive union of Enlil and the young goddess Ninlil, Enlil's subsequent trial and banishment by the divine assembly, and the series of magical conceptions that occurred in the Underworld to establish their divine dynasty.",
+    "properties": { "catalyst": "Enlil's uncontrolled desire for the young goddess Ninlil as she bathes in a canal." },
+    "historical_provenance": {
+      "epoch": "The Divine-Mortal Age",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Transgression", "description": "Despite her refusal, `nde:deity::enlil` seizes and impregnates `nde:deity::ninlil`. This act is a profound violation of divine social order." },
+        { "phase": 2, "title": "The Judgment", "description": "The great gods of the `nde:deity::anunna` convene in assembly. They find Enlil guilty of his crime and, despite his status as king, sentence him to be exiled from their city, Nippur, to the Underworld." },
+        { "phase": 3, "title": "The Loyal Pursuit", "description": "Ninlil, now pregnant with the future moon god `nde:deity::nanna-sin`, willingly chooses to follow her banished lover into exile." },
+        { "phase": 4, "title": "The Underworld Conceptions", "description": "To ensure their celestial firstborn is not trapped in the Underworld, Enlil devises a plan. He disguises himself as three different chthonic gatekeepers in sequence, and in each guise, impregnates the loyal Ninlil with a substitute chthonic deity. These three 'Underworld children' satisfy the claim of the realm, allowing the celestial Nanna-Sin to be born into his rightful place in the sky." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": "Establishes that the divine world is governed by a system of laws to which even the most powerful king is subject. The authority of the collective divine assembly (the Anunna) is shown to be capable of overriding the will of the individual sovereign. It adds a crucial layer of complexity to Enlil, casting him not just as a harsh judge but also as a convicted criminal.",
+      "narrative_function": "A dynastic origin story. It provides the complex and dramatic backstory for the birth of the moon god Nanna-Sin and the founding of his powerful celestial family. It also establishes the unbreakable, if paradoxical, bond between Enlil and his consort Ninlil."
+    },
+    "attributes": { "domains": ["Transgression", "Divine Law", "Exile", "Dynasty"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "protagonists": ["nde:deity::enlil", "nde:deity::ninlil"], "judiciary": ["nde:deity::anunna"] },
+    "causal_links": { "effect": "The birth of `nde:deity::nanna-sin` and the establishment of his divine lineage." },
+    "timeline": { "epoch": "II. The Divine-Mortal Age", "sequence": "Follows the Creation of Humanity" }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Myth of Enlil and Ninlil"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
+
+
+<details>
+<summary><code>FUID: EVENT-quest_for_immortality-v1.2</code></summary>
+
+```json
+{
+  "FUID": "EVENT-quest_for_immortality-v1.2",
+  "key": "nde:event::quest_for_immortality",
+  "ontological_class": "EVENT",
+  "title": "The Great Quest: Gilgamesh's Journey to the End of the World",
+  "ref_name": "Quest for Immortality",
+  "content_proposition": {
+    "summary": "The epic, grief-fueled journey undertaken by Gilgamesh following the death of Enkidu, in which he wanders to the ends of the earth in a desperate search for the secret to eternal life, ultimately failing to attain his goal but gaining the profound wisdom of accepting his mortality.",
+    "properties": { "catalyst": "The existential terror and profound grief caused by the `nde:event::death_of_enkidu`." },
+    "historical_provenance": {
+      "epoch": "The Heroic Age (Climax)",
+      "narrative_arc": [
+        { "phase": 1, "title": "The Flight into the Wilderness", "description": "Abandoning his throne, Gilgamesh wanders the steppe to the mythical `nde:loc::mashu_mountain`, where the Scorpion-Beings grant him passage." },
+        { "phase": 2, "title": "The Temptation of Mortal Life", "description": "He emerges into a divine garden where the alewife `nde:character::siduri` advises him to abandon his quest and embrace the joys of mortal life. He refuses." },
+        { "phase": 3, "title": "The Crossing", "description": "He finds the ferryman `nde:character::urshanabi` and, after destroying the magical 'Stone Things' in a fit of rage, is forced into the grueling labor of poling himself across the `nde:loc::waters_of_death`." },
+        { "phase": 4, "title": "The Revelation of the Sage", "description": "He meets `nde:character::ziusudra`, who recounts the story of the `nde:event::the_great_flood`, revealing that his own immortality was a unique gift and cannot be replicated. He challenges Gilgamesh to overcome sleep, a test the hero fails instantly." },
+        { "phase": 5, "title": "The Final Loss and The Attainment of Wisdom", "description": "As a parting gift, Gilgamesh is told of the `nde:artifact::plant_of_rejuvenation`. He retrieves it, but a serpent steals it. This final loss breaks his questing spirit, leading to his ultimate epiphany." },
+        { "phase": 6, "title": "The Return", "description": "He returns to `nde:loc::uruk`. Instead of despairing, he gestures to the city's great walls, realizing that his true immortality lies in the enduring works of civilization he will leave behind." }
+      ]
+    },
+    "analysis": {
+      "theological_implications": "This event is the definitive statement on the human condition. It confirms that the boundary between mortals and gods is absolute. Wisdom is found not in fighting this decree, but in accepting it and finding meaning within a finite life.",
+      "narrative_function": "The capstone of the epic. It brings the hero's journey full circle, transforming the arrogant tyrant from the beginning of the story into the wise king at the end. It ties together all major threads of the canon: the Flood hero, the nature of the gods, and the purpose of humanity."
+    },
+    "attributes": { "domains": ["Quest", "Mortality", "Wisdom", "Failure", "Legacy"] }
+  },
+  "relational_hooks": {
+    "direct_links": { "protagonist": ["nde:character::gilgamesh"], "objective": ["nde:character::ziusudra"], "key_guides": ["nde:character::siduri", "nde:character::urshanabi"] },
+    "causal_links": { "cause": "The trauma of `nde:event::death_of_enkidu`.", "effect": "The final maturation of `nde:character::gilgamesh` into a wise and just king." },
+    "timeline": { "epoch": "III. The Heroic Age", "sequence": 14.0 }
+  },
+  "development_log": { "version": "1.2", "status": "COMPLETE." },
+  "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablets IX-XI)"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
+}
+```
+</details>
 // The canon's complete history of the Divine-Mortal Age, from the first crisis of labor to the final crisis of existence, is now instantiated.
