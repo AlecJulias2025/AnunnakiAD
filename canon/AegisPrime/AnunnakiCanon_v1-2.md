@@ -1330,7 +1330,7 @@
   "metadata": { "primary_textual_sources": ["Epic of Gilgamesh (Tablet XI)", "Atra-Hasis", "Sumerian Flood Myth"], "scholarly_source": "Gods, Demons and Symbols of Ancient Mesopotamia", "data_fidelity": "FUSED (High-Confidence)" }
 }
 ```
-
+</details>
 <details>
 <summary><code>FUID: CHAR-dumuzi-v1.2</code></summary>
 
