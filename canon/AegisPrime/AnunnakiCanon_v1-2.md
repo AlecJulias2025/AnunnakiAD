@@ -1732,22 +1732,105 @@ Having defined the great mythical realms, it is now necessary to define the impa
 ```
 </details>
 
-// UNINSTANTIATED LOCATIONS WORKLIST**
+// UNINSTANTIATED LOCATIONS WORKLIST
 
-| **`key` / `ref_name`** | **Title** | **Initial Summary & Justification for Inclusion** | **Priority** |
-| :--- | :--- | :--- | :--- |
-| **`nde:loc::kish`** | The City of Northern Kingship | Kish was a dominant city-state in northern Babylonia and a traditional rival to Uruk. It is the seat of legendary kings like Etana. Instantiating it is critical for establishing the geopolitical landscape that Gilgamesh operates within and provides a necessary political counterweight to Uruk. | **High** |
-| **`nde:loc::e-ana_temple`** | The House of Heaven, Sacred Precinct of Uruk | As the joint temple of An and Inanna and the storehouse for the *Me*, the E-ana is the heart of Uruk's religious and political power. It requires its own detailed CRO to serve as a sub-location of `nde:loc::uruk`, detailing its architecture, clergy, and rituals. It is the 'White House' and 'National Cathedral' combined. | **High** |
-| **`nde:loc::mount_nisir`** | The Mountain of Salvation, The Ark's Final Haven | This is the specific mountain where Ziusudra's ark came to rest after the Great Flood. Its name and location are crucial data points for the Flood narrative. Instantiating it provides the final geographical anchor for the most important event in the canon. | **Medium** |
-| **`nde:loc::bad-tibira`** | The City of Metalworkers | An ancient city named in the source texts as one of the original five antediluvian cities and a place Inanna abandoned. Its name means 'Wall of the Coppersmiths', and it requires a CRO to flesh out the map of the primordial world. | **Low** |
-| **`nde:loc::adab`** | The City of the Goddess Ninhursag | Adab was the primary cult center for the mother goddess Ki/Ninhursag. A CRO for Adab is required to give the 'Great Mother Earth' her own terrestrial seat of power, mirroring the other great gods. | **Low** |
+<details>
+<summary><code>FUID: LOC-kish-v1.3-PLANNED</code></summary>
 
-#### **§// ONTOLOGICAL CLASS 4: `FOUNDATIONAL EVENTS` (The Primordial Age)**
+```json
+{
+  "FUID": "LOC-kish-v1.3-PLANNED",
+  "key": "nde:loc::kish",
+  "ontological_class": "LOCATION",
+  "title": "The City of Northern Kingship",
+  "ref_name": "Kish",
+  "content_proposition": {
+    "summary": "Kish was a dominant city-state in northern Babylonia and a traditional rival to Uruk. It is the seat of legendary kings like Etana. Instantiating it is critical for establishing the geopolitical landscape that Gilgamesh operates within and provides a necessary political counterweight to Uruk."
+  },
+  "development_log": { "version": "1.3-PLANNED", "status": "PLANNED", "priority": "High" }
+}
+```
+</details>
 
-This sequence establishes the origin of the cosmos, moving from a state of undifferentiated potential to a structured but violent reality.
+<details>
+<summary><code>FUID: LOC-e-ana_temple-v1.3-PLANNED</code></summary>
+
+```json
+{
+  "FUID": "LOC-e-ana_temple-v1.3-PLANNED",
+  "key": "nde:loc::e-ana_temple",
+  "ontological_class": "LOCATION",
+  "title": "The House of Heaven, Sacred Precinct of Uruk",
+  "ref_name": "E-ana Temple",
+  "content_proposition": {
+    "summary": "As the joint temple of An and Inanna and the storehouse for the Me, the E-ana is the heart of Uruk's religious and political power. It requires its own detailed CRO to serve as a sub-location of `nde:loc::uruk`, detailing its architecture, clergy, and rituals. It is the 'White House' and 'National Cathedral' combined."
+  },
+  "development_log": { "version": "1.3-PLANNED", "status": "PLANNED", "priority": "High" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: LOC-mount_nisir-v1.3-PLANNED</code></summary>
+
+```json
+{
+  "FUID": "LOC-mount_nisir-v1.3-PLANNED",
+  "key": "nde:loc::mount_nisir",
+  "ontological_class": "LOCATION",
+  "title": "The Mountain of Salvation, The Ark's Final Haven",
+  "ref_name": "Mount Nisir",
+  "content_proposition": {
+    "summary": "This is the specific mountain where Ziusudra's ark came to rest after the Great Flood. Its name and location are crucial data points for the Flood narrative. Instantiating it provides the final geographical anchor for the most important event in the canon."
+  },
+  "development_log": { "version": "1.3-PLANNED", "status": "PLANNED", "priority": "Medium" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: LOC-bad-tibira-v1.3-PLANNED</code></summary>
+
+```json
+{
+  "FUID": "LOC-bad-tibira-v1.3-PLANNED",
+  "key": "nde:loc::bad-tibira",
+  "ontological_class": "LOCATION",
+  "title": "The City of Metalworkers",
+  "ref_name": "Bad-tibira",
+  "content_proposition": {
+    "summary": "An ancient city named in the source texts as one of the original five antediluvian cities and a place Inanna abandoned. Its name means 'Wall of the Coppersmiths', and it requires a CRO to flesh out the map of the primordial world."
+  },
+  "development_log": { "version": "1.3-PLANNED", "status": "PLANNED", "priority": "Low" }
+}
+```
+</details>
+
+<details>
+<summary><code>FUID: LOC-adab-v1.3-PLANNED</code></summary>
+
+```json
+{
+  "FUID": "LOC-adab-v1.3-PLANNED",
+  "key": "nde:loc::adab",
+  "ontological_class": "LOCATION",
+  "title": "The City of the Goddess Ninhursag",
+  "ref_name": "Adab",
+  "content_proposition": {
+    "summary": "Adab was the primary cult center for the mother goddess Ki/Ninhursag. A CRO for Adab is required to give the 'Great Mother Earth' her own terrestrial seat of power, mirroring the other great gods."
+  },
+  "development_log": { "version": "1.3-PLANNED", "status": "PLANNED", "priority": "Low" }
+}
+```
+</details>
+
+// ONTOLOGICAL CLASS 4: `FOUNDATIONAL EVENTS` (The Primordial Age)**
+
+// This sequence establishes the origin of the cosmos, moving from a state of undifferentiated potential to a structured but violent reality.
 
 <details>
 <summary><code>FUID: EVENT-primordial_genesis-v1.2</code></summary>
+
 ```json
 {
   "FUID": "EVENT-primordial_genesis-v1.2",
